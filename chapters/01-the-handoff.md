@@ -74,7 +74,7 @@ The same list appears in full at the end of the book, as Chapter 15, with the re
 
 **Part I — The Ground.** Where this chapter sits: what a forecast is versus what you can actually act on, where the money in a business actually lives, and the shape a trustworthy model takes from assumption to decision.
 
-**Part II — Trusting the Model.** The four rules this whole book rests on: force real computation instead of a narrated number, build the general model rather than a one-off spreadsheet, reach for standard definitions instead of reinvented ones, and test against numbers you already know — with suspicion as the default for every assumption, not just the ones that already look wrong.
+**Part II — Trusting the Model.** The four rules this whole book rests on: force real computation instead of a narrated number, build the general model rather than a one-off spreadsheet, reach for common, explicit definitions instead of silently reinvented ones, and test against numbers you already know — with suspicion as the default for every assumption, not just the ones that already look wrong.
 
 **Part III — Making the Decision.** The concrete situations that brought you here: finding the one assumption a forecast actually rests on, telling cash apart from profit, carrying a range instead of a single number, and understanding what raising money actually costs in ownership.
 

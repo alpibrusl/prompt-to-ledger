@@ -30,7 +30,7 @@ financial discipline for people who are not accountants.
 | **IV** | Seeing and Trusting the Numbers | A chart is a claim · numbers you can trust |
 | **V** | Working With the Agent | Asking the right question · the minimum bar |
 
-**Status: complete draft.** All 15 chapters written; ~15,400 words, 31 defined terms, 76 pages.
+**Status: complete draft**, plus a closing afterword. 16 chapters; ~16,400 words, 31 defined terms, 80 pages.
 
 ## The four rules
 
@@ -41,10 +41,12 @@ of decision:
    shown, not a plausible-sounding number typed as though it were derived.
 2. **Write the general model; treat this month or this pitch as one input
    to it** — not a spreadsheet quietly tuned to look right for today.
-3. **Use established accounting and financial conventions over reinvented
-   definitions** — the same supply-chain trust logic as *Prompt to
-   Production* chapter 2, aimed at standard statements and metric
-   definitions instead of security.
+3. **Use common, explicit accounting and financial conventions over
+   silently reinvented ones** — the same supply-chain trust logic as
+   *Prompt to Production* chapter 2, aimed at recognisable statements and
+   metric definitions instead of security. Few of these have exactly one
+   legally correct formula; what matters is picking a version other
+   people would recognise and saying out loud which one you used.
 4. **Test the model against numbers you already know, and stay suspicious
    of every assumption, not just the extreme-looking ones** — the scalable
    version is a consistency check: does this assumption agree with what you

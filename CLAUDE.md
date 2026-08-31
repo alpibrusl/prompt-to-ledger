@@ -36,10 +36,12 @@ applies them to a specific kind of decision:
    shown, not a plausible-sounding number typed as though it were derived.
 2. Write the general model; treat this month or this pitch as one input to
    it, not a spreadsheet quietly tuned to look right for today.
-3. Use established accounting and financial conventions over reinvented
-   definitions — the same supply-chain trust logic as *Prompt to
-   Production* chapter 2, aimed at standard statements and metric
-   definitions instead of security.
+3. Use common, explicit accounting and financial conventions over silently
+   reinvented ones — the same supply-chain trust logic as *Prompt to
+   Production* chapter 2, aimed at recognisable statements and metric
+   definitions instead of security. Few of these terms have exactly one
+   legally correct formula; the point is picking a version other people
+   would recognise and saying out loud which one was used.
 4. Test the model against numbers you already know, and stay suspicious of
    every assumption, not just the extreme-looking ones — the scalable
    version is a consistency check: does this assumption agree with what you

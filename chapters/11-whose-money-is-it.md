@@ -22,7 +22,22 @@ This is the part a first-time founder underestimates most reliably: dilution com
 
 Most term sheets include an **option pool** — a block of equity set aside, before the round is calculated, to grant to future employees as they're hired. It sounds like a detail. It is usually the single largest hidden cost in a term sheet, because of where it comes from: an investor typically requires the pool be created out of the pre-money valuation, which means it dilutes the existing founders, not the incoming investor.
 
-A ten-percent option pool, created this way, means the founders' true dilution from the round isn't the twenty percent the headline math suggested — it's closer to thirty, because the pool was carved out of their side of the table before the investor's percentage was even calculated. This is standard practice, not a red flag by itself, but it is exactly the kind of number that's easy to miss reading the term sheet quickly and genuinely painful to discover afterward. It is also exactly the kind of clause where a lawyer who reads these for a living earns their fee.
+This is exactly the kind of number this book's own first rule says not to take on faith — computed, not narrated. Here is Ledgerly's round with a ten-percent post-money option pool, worked all the way through in actual shares rather than asserted as a headline percentage:
+
+| | Shares | Share of company |
+|---|---:|---:|
+| Founders, before the round | 7,000,000 | 100% |
+| Option pool created (new shares, pre-money) | +1,000,000 | — |
+| **Pre-money total** | **8,000,000** | **100% of pre-money** |
+| Investor's new shares (€500,000 at €0.25/share) | +2,000,000 | — |
+| **Post-money total** | **10,000,000** | **100%** |
+| Founders, after the round | 7,000,000 | **70%** |
+| Option pool, after the round | 1,000,000 | 10% |
+| Investor, after the round | 2,000,000 | 20% |
+
+Read the founders' row twice. The investor's headline stake is twenty percent, exactly as Chapter 1's pre-money-and-post-money arithmetic predicted. The founders' actual dilution is thirty percentage points, not twenty — because the pool's 1,000,000 shares were issued before the investment was calculated, out of what would otherwise have been entirely the founders' side of the table. The founders' own share *count* never changed. Their share of an now-larger pie did, and the size of that gap is exactly the size of the pool.
+
+This is standard practice, not a red flag by itself, but it is exactly the kind of number that's easy to miss reading the term sheet quickly and genuinely painful to discover afterward. It is also exactly the kind of clause where a lawyer who reads these for a living earns their fee — and exactly the kind of table worth asking your agent to actually build, with your own real numbers, rather than trusting a headline percentage on a term sheet's summary page.
 
 ## What this chapter is not going to tell you
 
