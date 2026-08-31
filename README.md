@@ -10,12 +10,15 @@ model rests on, understanding what a term sheet actually costs: the reader
 runs a business, not a set of books, and wants to know what to ask before a
 number drives a real decision.
 
-Third in a series, same voice, same tooling, different subject each time.
-[*Prompt to Production*](https://github.com/alpibrusl/prompt-to-production)
-is software engineering discipline for people who cannot read code;
-[*Prompt to Evidence*](https://github.com/alpibrusl/prompt-to-evidence) is
-analytical discipline for people who are not mathematicians; this one is
-financial discipline for people who are not accountants.
+Third in a series of four, same voice, same tooling, different subject each
+time. [*Prompt to
+Production*](https://github.com/alpibrusl/prompt-to-production) is software
+engineering discipline for people who cannot read code; [*Prompt to
+Evidence*](https://github.com/alpibrusl/prompt-to-evidence) is analytical
+discipline for people who are not mathematicians; this one is financial
+discipline for people who are not accountants. The fourth, [*Prompt to
+Decision*](https://github.com/alpibrusl/prompt-to-decision), sits above all
+three: deciding whether to act on a recommendation, not just verifying it.
 
 > The agent will build almost any model you ask for, and will rarely tell
 > you which assumption inside it is doing all the work.
@@ -59,7 +62,7 @@ of decision:
 The manuscript is Markdown. The EPUB and PDF are build artifacts — derived
 from the source, never committed, rebuilt on demand. This is
 [bookkit](https://github.com/alpibrusl/content-kit)'s premise, shared with
-this book's two companion volumes.
+this book's three companion volumes.
 
 ```bash
 pip install "content-kit-core @ git+https://github.com/alpibrusl/content-kit@main#subdirectory=packages/core"
