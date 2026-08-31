@@ -87,8 +87,8 @@ Four statuses, used honestly:
 
 Then close with, verbatim or close to it:
 
-> **How do you know — and what would have to be true for that to be
-> wrong?**
+> **Which assumption is this decision standing on — and what happens if
+> it's wrong?**
 >
 > That's the question this whole checklist unpacks. The gaps above are
 > where the answer is currently "we don't, yet" — weigh them against what's

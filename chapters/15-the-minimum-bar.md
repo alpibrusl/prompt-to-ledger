@@ -58,7 +58,7 @@ An afternoon, most of it just asking.
 
 Chapter 1 opened with a single sentence: Ledgerly's agent reported that revenue would triple in twelve months, runway was eighteen months, the deck was ready. Nothing about that sentence was dishonest. It was also not yet something anyone could act on.
 
-Getting from that sentence to something worth presenting took most of this book. Chapter 6 checked what the standard metrics actually meant. Chapters 4, 5, and 7 made sure the model was computed with real formulas, built with real parameters, and tested against last year's actual numbers. Chapter 8 found the real problem: the entire tripling rested on a twenty-five-percent monthly growth rate extrapolated from two unusually good months, driven by a single large customer. A defensible eight percent turned tripling into a sixty-percent year — smaller, and true. Chapter 9 found the second problem hiding in the same number: the model had never been told about an already-committed hire, and the honest runway was closer to eight months than eighteen. Chapter 10 turned that single number into a real range, and Chapter 11 made sure the fundraise itself was understood before anyone signed anything.
+Getting from that sentence to something worth presenting took most of this book. Chapter 6 checked what the standard metrics actually meant. Chapters 4, 5, and 7 made sure the model was computed with real formulas, built with real parameters, and tested against last year's actual numbers. Chapter 8 found the real problem: the entire tripling rested on a ten-percent monthly growth rate extrapolated from two unusually good months, driven by a single large customer. A rate Ledgerly could actually defend from its own history — four percent monthly — turned tripling into a sixty-percent year: smaller, and true. Chapter 9 found the second problem hiding in the same number: the model had never been told about an already-committed hire, and the honest runway was closer to eight months than eighteen. Chapter 10 turned that single number into a real range, and Chapter 11 made sure the fundraise itself was understood before anyone signed anything.
 
 Nine chapters between a plausible sentence and an actual answer is not this book being thorough for its own sake. It is what the gap between a forecast and something you can act on, named all the way back in Chapter 1, actually costs to close — once, carefully, so it doesn't have to be re-litigated by hand every time a number like it shows up again.
 
@@ -72,9 +72,9 @@ What you can do now is ask whether a forecast's growth assumption is defensible 
 
 One question, worth asking about every forecast before it drives a decision:
 
-> **"How do you know — and what would have to be true for that to be wrong?"**
+> **"Which assumption is this decision standing on — and what happens if it's wrong?"**
 
-That question is this whole book, compressed. It asks for something you can act on rather than a number (Chapter 1). It asks what assumption the forecast actually depends on (Chapter 8). It asks what would falsify the result rather than just confirm it — which is the difference between checking and hoping.
+That question is this whole book, compressed. It asks for something you can act on rather than a number (Chapter 1). It asks what assumption the forecast actually depends on, by name, rather than leaving it buried in a spreadsheet cell (Chapter 8). And it asks what happens if that one number turns out to be wrong — not as an abstract possibility, but as something concrete enough to plan around before it happens, not after.
 
 Ask it about every forecast before you act on it. The answer doesn't have to be elaborate. Sometimes "we tested the model against last year's actuals, identified the one assumption the answer depends on, and it's defensible" is completely sufficient. What matters is that there is an answer, and that someone actually has it — rather than finding out, after the round has closed or the hire has started, that nobody ever did.
 

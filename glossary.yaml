@@ -188,8 +188,10 @@ concepts:
 
   - term: "working capital"
     definition: >-
-      Cash tied up in the timing gap between earning revenue and actually
-      collecting it, or between incurring a cost and actually paying it.
+      Near-term assets (cash, money customers owe you) minus near-term
+      liabilities (bills coming due soon), on the balance sheet. Moved
+      month to month mainly by the timing gap between earning revenue and
+      collecting it, or incurring a cost and paying it.
     defined_in: 9
 
   # ─── Chapter 10 — Confidence, Not Certainty ─────────────────────────────
