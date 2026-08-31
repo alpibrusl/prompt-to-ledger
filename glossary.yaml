@@ -1,0 +1,269 @@
+# The concept ledger for "Prompt to Ledger".
+#
+# This is the book's canon: every piece of jargon it teaches, the ONE definition
+# it commits to, and the ONE analogy it uses for that idea throughout. Chapters
+# are written against this file; `make check` lints the manuscript against it.
+#
+# Structurally identical to prompt-to-production's and prompt-to-evidence's
+# glossary.yaml — same tooling, same discipline, different subject.
+#
+#   term        the canonical name
+#   aka         synonyms and near-misses the reader will meet elsewhere
+#   definition  the one plain-language definition (used verbatim in the glossary)
+#   analogy     the metaphor this book commits to and never contradicts
+#   depends_on  terms that must already be defined for this one to make sense
+#   defined_in  the chapter that introduces it
+
+kind: technical
+title: "Prompt to Ledger"
+
+concepts:
+
+  # ─── Chapter 1 — The Handoff ────────────────────────────────────────────
+  - term: "forecast"
+    scan: true
+    definition: >-
+      A number projected forward by a financial model, built from
+      assumptions. Not, by itself, something you can act on.
+    defined_in: 1
+
+  - term: "assumption"
+    scan: true
+    definition: >-
+      An input a model treats as true, whether or not anyone checked it.
+    depends_on: ["forecast"]
+    defined_in: 1
+
+  # ─── Chapter 2 — Where the Money Actually Lives ─────────────────────────
+  - term: "cash accounting"
+    definition: >-
+      Counting a transaction when money actually moves — a sale recorded
+      when the customer pays, a bill recorded when it's settled.
+    defined_in: 2
+
+  - term: "accrual accounting"
+    definition: >-
+      Counting a transaction when it's earned or incurred, regardless of
+      when cash moves — a sale recorded the moment it's delivered, whether
+      or not the invoice has been paid yet.
+    depends_on: ["cash accounting"]
+    defined_in: 2
+
+  - term: "income statement"
+    aka: ["P&L", "profit and loss statement"]
+    definition: >-
+      A report of whether a period's activity made money — revenue earned
+      minus the costs of earning it, over a period of time, built on
+      accrual accounting.
+    depends_on: ["accrual accounting"]
+    defined_in: 2
+
+  - term: "balance sheet"
+    definition: >-
+      A report of what a business owns and owes at a single instant, like a
+      photograph rather than a video — what it owns minus what it owes is
+      what it's worth on paper at that moment.
+    defined_in: 2
+
+  - term: "cash flow statement"
+    definition: >-
+      A report of how much actual cash moved and where it went, built by
+      adjusting the income statement's accrual-basis profit back toward
+      cash until what's left is the real change in the bank balance.
+    depends_on: ["income statement", "cash accounting"]
+    defined_in: 2
+
+  # ─── Chapter 3 — The Shape of a Model ────────────────────────────────────
+  - term: "financial model"
+    definition: >-
+      A set of assumptions connected by formulas to produce a forecast.
+    depends_on: ["assumption"]
+    defined_in: 3
+
+  - term: "input"
+    definition: >-
+      A number someone typed into a model because they believe it to be
+      true, or expect it to become true. Nothing calculates an input; it is
+      the model's opinion about the world, stated as a number.
+    depends_on: ["financial model"]
+    defined_in: 3
+
+  - term: "formula"
+    definition: >-
+      A cell whose value is computed from other cells, ultimately tracing
+      back to inputs.
+    depends_on: ["input"]
+    defined_in: 3
+
+  # ─── Chapter 5 — The Tool, Not the Answer ───────────────────────────────
+  - term: "parameter"
+    scan: true
+    definition: >-
+      The part of a model that changes from one run to the next — a growth
+      rate, a hiring plan, a price — kept separate from the formulas that
+      stay fixed regardless of what value is supplied.
+    depends_on: ["input"]
+    defined_in: 5
+
+  # ─── Chapter 6 — Borrowed, Not Reinvented ───────────────────────────────
+  - term: "gross margin"
+    definition: >-
+      Revenue minus the direct cost of delivering what was sold, divided by
+      revenue.
+    defined_in: 6
+
+  - term: "customer acquisition cost"
+    aka: ["CAC"]
+    definition: >-
+      Everything spent to acquire a customer over a period — marketing
+      spend, sales salaries, tools — divided by the number of customers
+      actually acquired in that period.
+    defined_in: 6
+
+  - term: "churn rate"
+    definition: >-
+      The share of customers who cancel in a given period.
+    defined_in: 6
+
+  - term: "lifetime value"
+    aka: ["LTV"]
+    definition: >-
+      The total gross margin a customer generates over the whole time they
+      stay a customer, estimated from margin per period and the average
+      customer lifetime implied by the churn rate.
+    depends_on: ["gross margin", "churn rate"]
+    defined_in: 6
+
+  # ─── Chapter 7 — Test It Against What You Already Know ──────────────────
+  - term: "known-answer test"
+    aka: ["sanity check"]
+    definition: >-
+      Running a model against a case where the correct result is already
+      known, to check the model itself before trusting it on a case where
+      the answer isn't.
+    depends_on: ["parameter"]
+    defined_in: 7
+
+  - term: "consistency check"
+    definition: >-
+      Asking whether a forecast agrees with something else already known,
+      arrived at a different way — a related number, an independent report,
+      the surrounding trend. The scalable form of suspicion: run
+      continuously on every forecast, not just the extreme-looking ones,
+      without needing to re-derive anything from scratch.
+    depends_on: ["known-answer test"]
+    defined_in: 7
+
+  # ─── Chapter 8 — Is This Assumption Doing All the Work? ─────────────────
+  - term: "load-bearing assumption"
+    definition: >-
+      The input a model's conclusion is most sensitive to — the one where a
+      modest, realistic change in the number produces a large change in the
+      answer.
+    depends_on: ["assumption"]
+    defined_in: 8
+
+  - term: "sensitivity analysis"
+    definition: >-
+      Changing one input at a time, holding everything else fixed, and
+      watching how much the output moves — the technique for finding a
+      model's load-bearing assumption.
+    depends_on: ["load-bearing assumption"]
+    defined_in: 8
+
+  # ─── Chapter 9 — Cash Is Not Profit ──────────────────────────────────────
+  - term: "burn rate"
+    definition: >-
+      How much cash a business spends beyond what it brings in, per month —
+      costs minus revenue, on a cash basis.
+    depends_on: ["cash accounting"]
+    defined_in: 9
+
+  - term: "runway"
+    definition: >-
+      How many months of cash remain at the current burn rate: cash in the
+      bank, divided by monthly burn.
+    depends_on: ["burn rate"]
+    defined_in: 9
+
+  - term: "working capital"
+    definition: >-
+      Cash tied up in the timing gap between earning revenue and actually
+      collecting it, or between incurring a cost and actually paying it.
+    defined_in: 9
+
+  # ─── Chapter 10 — Confidence, Not Certainty ─────────────────────────────
+  - term: "point estimate"
+    definition: >-
+      The single best-guess number a forecast produces — real, and always a
+      guess, computed from one particular set of assumptions that would
+      come out slightly different with equally defensible ones.
+    defined_in: 10
+
+  - term: "scenario analysis"
+    definition: >-
+      Building more than one version of a forecast — typically a base case,
+      a better case, and a worse case, each with its own internally
+      consistent assumptions — rather than presenting one number as the
+      only possible outcome.
+    depends_on: ["point estimate"]
+    defined_in: 10
+
+  # ─── Chapter 11 — Whose Money Is It ──────────────────────────────────────
+  - term: "equity"
+    definition: >-
+      A share of ownership in a company — a percentage entitling its holder
+      to that share of whatever the company is eventually worth.
+    defined_in: 11
+
+  - term: "valuation"
+    definition: >-
+      What a company is said to be worth. Pre-money valuation is what it's
+      worth before a new investment is added; post-money valuation is
+      pre-money plus the new cash.
+    depends_on: ["equity"]
+    defined_in: 11
+
+  - term: "dilution"
+    scan: true
+    definition: >-
+      The reduction in an existing shareholder's ownership percentage
+      caused by new shares being issued to someone else.
+    depends_on: ["equity", "valuation"]
+    defined_in: 11
+
+  - term: "option pool"
+    definition: >-
+      A block of equity set aside, before a round is calculated, to grant
+      to future employees as they're hired — usually carved out of the
+      pre-money valuation, which means it dilutes existing shareholders,
+      not the incoming investor.
+    depends_on: ["valuation", "dilution"]
+    defined_in: 11
+
+  # ─── Chapter 12 — A Chart Is a Claim ─────────────────────────────────────
+  - term: "aggregation"
+    scan: true
+    definition: >-
+      A single summary value standing in for many underlying ones — a
+      yearly total standing in for twelve months that moved very
+      differently from each other, an average standing in for a curve that
+      was actually flat and then jumped once.
+    defined_in: 12
+
+  # ─── Chapter 13 — Numbers You Can Trust ──────────────────────────────────
+  - term: "chart of accounts"
+    definition: >-
+      The standard list of categories every transaction in a business gets
+      sorted into — software subscriptions, payroll, travel, revenue by
+      product line.
+    defined_in: 13
+
+  - term: "reconciliation"
+    scan: true
+    definition: >-
+      Comparing a business's recorded transactions against an independent
+      record of what actually happened — typically the bank or credit card
+      statement — and confirming they match.
+    depends_on: ["chart of accounts"]
+    defined_in: 13

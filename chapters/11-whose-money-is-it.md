@@ -1,0 +1,43 @@
+# Whose Money Is It
+
+Ledgerly's investor offers €500,000 for the seed round, at a €2,000,000 pre-money valuation. The number on the term sheet is easy to read as "we're getting €500,000." What it actually means is a permanent change in who owns the company, and that part doesn't show up as clearly on the page.
+
+This chapter is not about how to negotiate that term sheet — that's a real skill, it takes a lawyer who does this for a living, and this book would be lying if it pretended a chapter could replace one. It's about understanding what the numbers on it actually do, well enough to know what you're agreeing to before you sign it.
+
+## What you're actually giving up
+
+**Equity** is a share of ownership in the company — a percentage that entitles its holder to that share of whatever the company is eventually worth. Founders hold equity from the start; an investor exchanges cash for a slice of it.
+
+**Valuation** is what the company is being said to be worth, and it comes in two versions that matter for different reasons. **Pre-money valuation** is what the company is worth before the new investment is added. **Post-money valuation** is pre-money plus the new cash — simply pre-money plus the investment amount, because the cash itself becomes part of what the company owns the moment it lands in the bank.
+
+Ledgerly's round: €2,000,000 pre-money, €500,000 invested, €2,500,000 post-money. The new investor's ownership share is their investment divided by the post-money valuation — €500,000 of €2,500,000, which is twenty percent. The founders' combined stake, which was effectively one hundred percent of the company before the round, is now eighty percent of a company that's also worth more than it was. Both of those things are true at once, and neither one cancels the other out.
+
+## Dilution, precisely
+
+**Dilution** is the reduction in an existing shareholder's ownership percentage caused by new shares being issued to someone else. It is not a loss of value in most cases — eighty percent of a €2,500,000 company is worth more than one hundred percent of a €2,000,000 one, provided the valuation is honest and the company actually uses the money well. It is, unambiguously, a loss of *control*: fewer votes, a smaller share of any future sale or exit, less say if the two founders and the new investor ever disagree about direction.
+
+This is the part a first-time founder underestimates most reliably: dilution compounds. A seed round costs twenty percent. A Series A a year later, on top of that, costs another meaningful slice — of what's left, not of the original hundred. Do this three or four times over a company's life, and founders who started at one hundred percent can end up owning a minority of the thing they built, each individual round having felt entirely reasonable in isolation. None of this is a reason to avoid raising money; it is a reason to think about the whole sequence, not just the round in front of you.
+
+## The part that gets buried: the option pool
+
+Most term sheets include an **option pool** — a block of equity set aside, before the round is calculated, to grant to future employees as they're hired. It sounds like a detail. It is usually the single largest hidden cost in a term sheet, because of where it comes from: an investor typically requires the pool be created out of the pre-money valuation, which means it dilutes the existing founders, not the incoming investor.
+
+A ten-percent option pool, created this way, means the founders' true dilution from the round isn't the twenty percent the headline math suggested — it's closer to thirty, because the pool was carved out of their side of the table before the investor's percentage was even calculated. This is standard practice, not a red flag by itself, but it is exactly the kind of number that's easy to miss reading the term sheet quickly and genuinely painful to discover afterward. It is also exactly the kind of clause where a lawyer who reads these for a living earns their fee.
+
+## What this chapter is not going to tell you
+
+How to price a round, whether a SAFE or a priced equity round is the better structure for a given situation, what a reasonable option pool size looks like for your stage, how any of this is taxed, or what specific terms are negotiable — all of that depends on your specific company, your specific investors, and rules that vary by where you're incorporated and where your investors are based. This is exactly the boundary Chapter 1 drew: a real fundraise deserves a lawyer who does this professionally, reading the actual document, not a chapter in a book written for every founder everywhere. What this chapter buys you is walking into that conversation already understanding what pre-money, dilution, and an option pool actually do — so the lawyer's time goes toward your specific situation, not toward explaining the vocabulary from scratch.
+
+## What to ask for
+
+> "Walk me through this term sheet's math: pre-money, the investment amount, post-money, and my resulting ownership percentage — show the actual arithmetic, not just the final number."
+
+The core check. If the arithmetic doesn't reconcile cleanly, that's worth understanding before anything else in the document.
+
+> "Is there an option pool in this round, and is it being created out of the pre-money valuation? What's my actual dilution once the pool is accounted for?"
+
+The question that catches the hidden cost. Ask it before you compare this offer against any other one, because two term sheets with the same headline valuation can carry very different real dilution depending on how the pool is structured.
+
+> "If we raise another round at a higher valuation next year, roughly what happens to my ownership after both rounds combined?"
+
+Forces the sequence into view instead of evaluating one round in isolation — and it's a question worth taking to an actual lawyer or a fundraising advisor, not settling from a model alone.
