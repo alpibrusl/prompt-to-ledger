@@ -10,7 +10,7 @@ This chapter is about that gap: why "profitable" and "cash went up" are differen
 
 **Accrual accounting** counts a transaction when it's earned or incurred, regardless of when cash moves. A sale is recorded the moment you deliver what was promised, whether the invoice is paid today or in sixty days. A cost is recorded when you become obligated to pay it, not when the payment clears.
 
-Almost every business past its earliest days runs on accrual accounting, for a specific reason: it matches revenue to the period it was actually earned in, which is what makes one month comparable to the next. Cash accounting can make a business look wildly profitable the month a big invoice finally gets paid, and wildly unprofitable the surrounding months when the work was actually done. Accrual accounting spreads the story out to where the story actually happened.
+Many established businesses use accrual accounting, especially once the timing gap between earning revenue and collecting cash becomes material — some smaller businesses legitimately run on cash accounting instead, depending on size and jurisdiction, but accrual is the default once a business is past its earliest days, for a specific reason: it matches revenue to the period it was actually earned in, which is what makes one month comparable to the next. Cash accounting can make a business look wildly profitable the month a big invoice finally gets paid, and wildly unprofitable the surrounding months when the work was actually done. Accrual accounting spreads the story out to where the story actually happened.
 
 The cost of that accuracy is the gap this chapter is about: an accrual-basis business can report a profit in a month when cash in the bank went down, and report a loss in a month when cash went up. Neither number is lying. They are answering different questions.
 
@@ -28,7 +28,7 @@ Ledgerly's confusing month makes sense once you see it through all three. The in
 
 ## Why this distinction is the one that costs people money
 
-Of the mistakes this book exists to catch, believing an income statement tells you whether you can make payroll next month is one of the most common and most avoidable. The income statement can report a healthy profit while the bank account empties, if enough revenue is sitting uncollected and enough real cash is going out the door on schedule. A business does not fail because it stopped being profitable. It fails because it ran out of cash, and those are not the same event.
+Of the mistakes this book exists to catch, believing an income statement tells you whether you can make payroll next month is one of the most common and most avoidable. The income statement can report a healthy profit while the bank account empties, if enough revenue is sitting uncollected and enough real cash is going out the door on schedule. A business can survive a stretch of accounting losses. What it cannot survive indefinitely is being unable to meet its obligations when the cash to cover them isn't there — profitability and solvency are not the same event, and it's the second one that ends a business on the spot.
 
 This is not a reason to distrust the income statement — it answers a real question, and it's the right one for understanding whether the underlying business model works. It's a reason to never let it stand in alone for the question that actually threatens a business day to day, which is what Chapter 9 is entirely about.
 
