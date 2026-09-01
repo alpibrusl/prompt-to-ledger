@@ -2,6 +2,10 @@
 build/
 GLOSSARY.md
 
+# The cohort's generated fixture data -- fixture/generate_ledgerly_books.py
+# is the source.
+cohort/fixture/ledgerly-books/
+
 # Python
 __pycache__/
 *.pyc

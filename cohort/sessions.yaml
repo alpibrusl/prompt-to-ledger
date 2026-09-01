@@ -1,0 +1,228 @@
+sessions:
+  - number: 1
+    title: "The Number Isn't the Business"
+    chapters: [1, 2, 3]
+    chapter_titles: ["The Handoff", "Where the Money Actually Lives", "The Shape of a Model"]
+    in_session: >-
+      Live: ask an agent for a runway number on a toy business and watch
+      how fast a confident, definite-sounding sentence arrives. As a
+      group, name the six-link chain it skipped past — decision,
+      assumptions, model, computation, forecast — before anyone accepts
+      the last link alone. Then walk a real income statement and a real
+      bank balance for the same fictional month side by side, and ask
+      which one actually answers "can we make payroll."
+    exercise:
+      name: "Cash or accrual?"
+      description: >-
+        Ten one-line claims about a business ("we made a profit," "cash
+        went up," "we can afford this"). For each, students say which of
+        the three statements — income statement, balance sheet, cash flow
+        — actually answers it, and which of the ten are being answered by
+        the wrong one.
+    checkpoint: >-
+      Can explain, in their own words and without notes, why a business
+      can be profitable on paper and still run out of cash — using a
+      concrete number, not just the phrase itself.
+
+  - number: 2
+    title: "Compute It, Don't Narrate It"
+    chapters: [4, 5]
+    chapter_titles: ["Make It Compute, Not Guess", "The Tool, Not the Answer"]
+    in_session: >-
+      Ask an agent for a forecast twice: once as a plain question, once
+      demanding an actual spreadsheet with visible formulas and growth
+      rate, hiring plan, and pricing as adjustable parameters at the top.
+      Compare what comes back. As a group, change one parameter in the
+      second version live and watch whether the whole model updates or
+      whether someone would have had to rebuild it.
+    exercise:
+      name: "Find the welded-shut number"
+      description: >-
+        A short forecast memo and, separately, a spreadsheet claiming to
+        back it. Students identify which cells are real formulas and
+        which are numbers typed directly into the middle of one — the
+        tell that a parameter was baked in rather than left adjustable.
+    checkpoint: >-
+      Can state the one-sentence test for whether a model is reusable —
+      "if the growth rate or hiring plan changed, would this same model
+      still work, or would someone have to rebuild it" — and apply it
+      correctly to the memo they were given.
+
+  - number: 3
+    title: "Test It Before You Trust It"
+    chapters: [6, 7]
+    chapter_titles: ["Borrowed, Not Reinvented", "Test It Against What You Already Know"]
+    in_session: >-
+      Compare a homemade margin or CAC formula against the common,
+      explicit definition, live — same inputs, different formula, and the
+      group watches the number move. Then walk the known-answer test:
+      what it means to point a model at a case with a known outcome
+      before trusting it on the case that matters.
+    exercise:
+      name: "Back-test the trend"
+      description: >-
+        Using the trailing months of Ledgerly's own revenue and cost
+        history, students calibrate a simple growth model on the first
+        half of the window — before anything unusual happens — and use it
+        to predict the second half. They compare the prediction against
+        what the data actually shows for those months and report how
+        close it landed.
+      fixture_ref: "fixture/generate_ledgerly_books.py"
+    checkpoint: >-
+      Produced a specific predicted-versus-actual comparison for the
+      held-out months, with a number for the gap — not just "it seemed
+      close" or "it seemed off."
+    facilitator_notes: >-
+      Run `fixture/generate_ledgerly_books.py` fresh right before this
+      session. The point of this exercise is narrower than it looks —
+      it's testing the model's own mechanics, not yet the growth-rate
+      assumption itself. Students who jump straight to "the growth rate
+      must be wrong" are early; that's exactly Session 4, not this one.
+      Redirect them to just checking whether the model's math reproduces
+      a period it wasn't shown.
+
+  - number: 4
+    title: "The Assumption Doing All the Work"
+    chapters: [8]
+    chapter_titles: ["Is This Assumption Doing All the Work?"]
+    in_session: >-
+      Sensitivity analysis, live, on the fixture's own numbers: halve the
+      growth rate the delivered forecast implies, and watch the headline
+      conclusion move. As a group, name the difference between a
+      defensible assumption and a convenient one, and practice asking
+      "where does this number actually come from" out loud until the
+      answer is either a reason or a hope.
+    exercise:
+      name: "Naive rate versus representative rate"
+      description: >-
+        Using the same trailing revenue history from Session 3, students
+        compute two growth rates by hand — one from just the most recent
+        two months, one from the full trailing window — and are asked
+        which of the two the delivered forecast memo actually used, and
+        whether that one is a defensible number to build a fundraise deck
+        on.
+      fixture_ref: "fixture/generate_ledgerly_books.py"
+    checkpoint: >-
+      States both computed growth rates with their actual values, names
+      which one the delivered forecast used, and gives a specific reason
+      — not a feeling — for why the other one is more defensible.
+    facilitator_notes: >-
+      Regenerate the fixture fresh for this session even if Session 3 ran
+      recently — see the fixture's own README on why a stale copy costs
+      the exercise its "cold" reaction. Most groups find the two-good-
+      months pattern quickly by eyeballing the CSV; the harder, more
+      valuable part is getting them to state *why* the representative
+      rate is the more defensible one, not just that it's smaller.
+
+  - number: 5
+    title: "Cash Is Not Profit"
+    chapters: [9]
+    chapter_titles: ["Cash Is Not Profit"]
+    in_session: >-
+      Recompute burn and runway on the whiteboard from first principles —
+      cash in the bank divided by monthly burn, no growth assumption
+      layered on yet. Then, as a group, ask what the model would need to
+      already know about the business that a snapshot of current costs
+      alone can't tell it.
+    exercise:
+      name: "Find the missing commitment"
+      description: >-
+        Students are told nothing except "this forecast says eighteen
+        months — check it." They find the signed offer letter, unprompted,
+        and recompute an honest runway using the true future cost and a
+        defensible growth rate from Session 4, then compare it against
+        the delivered forecast's eighteen months.
+      fixture_ref: "fixture/generate_ledgerly_books.py"
+    checkpoint: >-
+      Produced an honest runway figure, with the arithmetic shown, and
+      can state in one sentence why it's meaningfully lower than the
+      delivered forecast's number.
+    facilitator_notes: >-
+      Regenerate the fixture fresh for this session too. Most groups find
+      the offer letter fast once told to "check it" — the harder failure
+      mode is stopping at "found the missing cost" without actually
+      redoing the runway arithmetic with both corrections applied at
+      once, growth rate and cost together. Push for the actual recomputed
+      number, not just the finding that something was missing.
+
+  - number: 6
+    title: "A Range, and Whose Money It Is"
+    chapters: [10, 11]
+    chapter_titles: ["Confidence, Not Certainty", "Whose Money Is It"]
+    in_session: >-
+      Turn Session 5's single honest runway number into a base, worse,
+      and better case by varying the load-bearing growth rate across
+      defensible values, live, and discuss what the width of the
+      resulting range actually says about how urgently to raise. Then
+      work a term sheet's arithmetic in full: pre-money, investment,
+      post-money, and — the part that's easy to skip — an option pool
+      created out of the pre-money side, in actual shares, not just a
+      headline percentage.
+    exercise:
+      name: "Build the real dilution table"
+      description: >-
+        Given a term sheet's headline numbers and an option pool size,
+        students build the full pre-money / post-money share table by
+        hand and report the founders' actual dilution — which is larger
+        than the investor's headline ownership percentage once the pool
+        is accounted for.
+    checkpoint: >-
+      A completed share table with the founders' actual post-round
+      ownership stated as a number, plus one sentence on why it differs
+      from the investor's headline stake.
+
+  - number: 7
+    title: "Seeing and Trusting the Numbers"
+    chapters: [12, 13]
+    chapter_titles: ["A Chart Is a Claim", "Numbers You Can Trust"]
+    in_session: >-
+      Draw the same revenue trend two honest ways — a tight axis over the
+      best quarter, then a zero-based axis over the full trailing year —
+      and watch the same numbers tell two different stories. Then walk
+      what a chart of accounts is and why a miscategorised expense never
+      announces itself as an error.
+    exercise:
+      name: "Redraw it plainly"
+      description: >-
+        Given a chart drawn the flattering way, students redraw it with a
+        zero-based axis and the full period shown, and state whether the
+        story changes — and separately, spot two miscategorised entries
+        in a short sample expense list and say which metrics each one
+        would quietly distort.
+    checkpoint: >-
+      Redrawn chart produced, with a one-line verdict on whether the
+      story held up — plus both miscategorised entries correctly
+      identified with the metric each one would distort.
+
+  - number: 8
+    title: "The Minimum Bar"
+    chapters: [14, 15, 16]
+    chapter_titles:
+      - "Asking the Right Question"
+      - "The Minimum Bar"
+      - "A Note from the Author"
+    in_session: >-
+      Each student runs the book's own verify-ledger skill against a real
+      forecast — their own if they have one, the fixture's
+      forecast-as-delivered.md if not — and presents the result to the
+      group: what's genuinely checkable and done, what's checkable and
+      missing, and what nobody can confirm without asking a real person.
+      Close by rewriting the session's opening vague request ("can we
+      afford this hire?") into the fully-specified version Chapter 14
+      teaches, and comparing what each version would actually get back.
+    checkpoint: >-
+      A specific, honest finding presented to the group — not a clean
+      bill of health, and not a wall of unconfirmed items either.
+    capstone: true
+    deliverable: >-
+      A completed audit against the rubric, run with this repo's own
+      skills/verify-ledger skill on a real forecast or on the fixture's
+      forecast-as-delivered.md.
+    facilitator_notes: >-
+      The rubric rewards an honest "unconfirmed" as much as a real "not
+      done" — watch for students quietly marking an ask-human item (a
+      bank reconciliation, a lawyer's review of a term sheet) as done
+      because the model around it looks clean. That is the exact mistake
+      the verify-ledger skill's own README warns against, and it's worth
+      naming out loud when it happens rather than just correcting the
+      finding.

@@ -1,0 +1,12 @@
+title: "Ledger Bootcamp Pilot"
+subtitle: "A test run at turning Prompt to Ledger into a taught module — eight sessions, one running set of Ledgerly's own books, one capstone that produces a real, honest audit instead of a grade."
+book: "prompt-to-ledger"
+book_title: "Prompt to Ledger"
+session_count: 8
+session_length_hours: 2
+cohort_size_min: 8
+cohort_size_max: 15
+format: "live, synchronous"
+prerequisite: "none"
+sessions_file: "sessions.yaml"
+rubric_file: "rubric.yaml"

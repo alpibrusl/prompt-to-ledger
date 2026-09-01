@@ -1,0 +1,26 @@
+dimensions:
+  - name: "Traced, not narrated"
+    description: >-
+      Findings cite the actual formula, cell, or computation behind a
+      number — "burn is defined as opex minus revenue, which omits the
+      payroll tax line" — not a general impression that the model
+      "looks solid."
+  - name: "The load-bearing assumption, named"
+    description: >-
+      The one assumption the headline conclusion is most sensitive to is
+      identified by name, with a stated reason for its value — a
+      representative stretch of real history, not just a number that
+      made the forecast say what the deck needed it to say.
+  - name: "Honesty about what's outside the model"
+    description: >-
+      Items a spreadsheet can't settle on its own — a bank reconciliation,
+      a lawyer's review of a term sheet, a founder's actual understanding
+      of dilution before signing — are marked unconfirmed when nobody has
+      verified them, never rounded up to done because the model around
+      them looks clean.
+  - name: "Proportionate to what's riding on it"
+    description: >-
+      Closes by weighing the gaps against what happens if the forecast is
+      wrong and who finds out too late — an internal working estimate
+      carries more open items than a forecast going to a board, an
+      investor, or driving a real hiring or spending decision.
