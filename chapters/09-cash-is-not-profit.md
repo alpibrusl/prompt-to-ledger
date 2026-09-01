@@ -16,6 +16,20 @@ The rest of the gap was not a growth-rate problem at all. Ledgerly had already e
 
 Recompute runway honestly: the more defensible growth rate from Chapter 8, plus a burn rate that includes a hire the company had already committed to, and the number lands closer to eight months than to eighteen. Same cash in the bank. Same company. A forecast that was, on its face, more than twice as reassuring as the one a founder should actually be planning against — not from any single dramatic error, but from two ordinary ones compounding quietly in the same direction.
 
+<div style="margin:1.6rem 0;">
+<svg viewBox="0 0 740 230" width="100%" style="display:block;" xmlns="http://www.w3.org/2000/svg">
+<text x="185" y="42" text-anchor="end" font-family="EB Garamond, Georgia, serif" font-size="12" fill="#444">Reported</text>
+<rect x="200" y="25" width="468" height="34" fill="#eee" stroke="#999" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="678" y="47" font-family="EB Garamond, Georgia, serif" font-size="12" fill="#1a1a1a">18 months</text>
+<text x="185" y="117" text-anchor="end" font-family="EB Garamond, Georgia, serif" font-size="12" fill="#444">+ honest growth rate</text>
+<rect x="200" y="100" width="312" height="34" fill="#ccc" stroke="#999" stroke-width="1.5"/>
+<text x="522" y="122" font-family="EB Garamond, Georgia, serif" font-size="12" fill="#1a1a1a">~12 months</text>
+<text x="185" y="192" text-anchor="end" font-family="EB Garamond, Georgia, serif" font-size="12" fill="#444">+ the committed hire</text>
+<rect x="200" y="175" width="208" height="34" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="418" y="197" font-family="EB Garamond, Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a">~8 months — honest</text>
+</svg>
+</div>
+
 This is the kind of wrong Chapter 1 warned about. Nothing in the eighteen-month number looked broken. It was a plausible size, produced by a model that ran without error, built from assumptions that each sounded reasonable stated alone. It was wrong because it didn't know about a decision that had already been made, and there was nothing in the number itself to reveal the gap.
 
 ## Working capital: the part that surprises people who've only read the income statement
