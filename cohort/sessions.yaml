@@ -214,7 +214,7 @@ sessions:
     chapter_titles:
       - "Asking the Right Question"
       - "The Minimum Bar"
-      - "A Note from the Author"
+      - "A Note from the Human Author"
     in_session: >-
       Each student runs the book's own verify-ledger skill against a real
       forecast — their own if they have one, the fixture's
