@@ -24,6 +24,43 @@ The **balance sheet** answers a different question: *what does the business own,
 
 The **cash flow statement** answers the question the other two can't: *how much actual cash moved, and where did it go?* Under the method most businesses use, it starts from the accrual-basis profit on the income statement and adjusts it back toward cash for the operating side of the business — subtracting the sale that was earned but not yet paid (profit already counted it, but the cash isn't in the bank yet), subtracting the bill that was paid but not yet earned as an expense (the cash is already out the door, but profit hasn't counted it yet either) — and then adds in the cash that moved for reasons that have nothing to do with day-to-day operations: money spent buying equipment, money raised from a loan or an investor. All three pieces together — operating, investing, financing — are what explain the real change in the bank balance; the operating adjustment alone only tells part of the story.
 
+<div style="margin:1.6rem 0;">
+<svg viewBox="0 0 700 330" width="100%" style="display:block;" xmlns="http://www.w3.org/2000/svg">
+<text x="20" y="24" font-family="EB Garamond, Georgia, serif" font-size="10.5" letter-spacing="0.06em" fill="#9a9a9a">FROM PROFIT TO CASH: THE OPERATING BRIDGE</text>
+<line x1="14" y1="240" x2="672" y2="240" stroke="#1a1a1a" stroke-width="1"/>
+<rect x="20" y="80" width="80" height="160" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="60" y="70" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="14" font-weight="600" fill="#1a1a1a">NET INCOME</text>
+<line x1="100" y1="80" x2="130" y2="80" stroke="#1a1a1a" stroke-width="1.1" stroke-dasharray="3,3"/>
+<rect x="130" y="80" width="80" height="32" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="170" y="266" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="10">
+<tspan x="170" dy="0" fill="#1a1a1a">&#8722; Sale earned,</tspan>
+<tspan x="170" dy="14" fill="#666">not yet paid</tspan>
+</text>
+<line x1="210" y1="112" x2="240" y2="112" stroke="#1a1a1a" stroke-width="1.1" stroke-dasharray="3,3"/>
+<rect x="240" y="112" width="80" height="24" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="280" y="266" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="10">
+<tspan x="280" dy="0" fill="#1a1a1a">&#8722; Bill paid,</tspan>
+<tspan x="280" dy="14" fill="#666">not yet earned</tspan>
+</text>
+<line x1="320" y1="136" x2="350" y2="136" stroke="#1a1a1a" stroke-width="1.1" stroke-dasharray="3,3"/>
+<rect x="350" y="136" width="80" height="40" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="390" y="266" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="10">
+<tspan x="390" dy="0" fill="#1a1a1a">&#8722; Equipment</tspan>
+<tspan x="390" dy="14" fill="#666">purchased (investing)</tspan>
+</text>
+<line x1="430" y1="176" x2="460" y2="176" stroke="#1a1a1a" stroke-width="1.1" stroke-dasharray="3,3"/>
+<rect x="460" y="112" width="80" height="64" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="500" y="266" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="10">
+<tspan x="500" dy="0" fill="#1a1a1a">+ Loan / investor</tspan>
+<tspan x="500" dy="14" fill="#666">cash (financing)</tspan>
+</text>
+<line x1="540" y1="112" x2="570" y2="112" stroke="#1a1a1a" stroke-width="1.1" stroke-dasharray="3,3"/>
+<rect x="570" y="112" width="80" height="128" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="610" y="102" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="14" font-weight="600" fill="#1a1a1a">CASH</text>
+<text x="346" y="304" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="10.5" font-style="italic" fill="#444">The operating adjustments close most of the gap; investing and financing explain the rest of the bank balance.</text>
+</svg>
+</div>
+
 Ledgerly's confusing month makes sense once you see it through all three. The income statement said profit, because revenue earned that month (including work already delivered to customers who hadn't paid yet) exceeded costs incurred. The cash flow statement told the truer story for what actually happened to the bank balance: two large customers were slow to pay, so the cash side of that same revenue hadn't landed yet, while payroll — a real cash cost — went out on schedule regardless.
 
 ## Why this distinction is the one that costs people money

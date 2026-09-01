@@ -40,6 +40,39 @@ The other links get full treatment later; here is where each tends to snap.
 
 **Decision.** The only link that was ever the actual goal. Everything before it exists to make this one defensible.
 
+<div style="margin:1.6rem 0;">
+<svg viewBox="0 0 704 190" width="100%" style="display:block;" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="ptl2-arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+<path d="M0,0 L6,3 L0,6" fill="none" stroke="#1a1a1a" stroke-width="1.1"/>
+</marker>
+</defs>
+<text x="12" y="20" font-family="EB Garamond, Georgia, serif" font-size="10.5" letter-spacing="0.06em" fill="#9a9a9a">THE CHAIN, LINK BY LINK</text>
+<rect x="12" y="50" width="98" height="50" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="61" y="80" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="14" font-weight="600" fill="#1a1a1a">DECISION</text>
+<line x1="110" y1="75" x2="127" y2="75" stroke="#1a1a1a" stroke-width="1.1" marker-end="url(#ptl2-arrow)"/>
+<rect x="128" y="50" width="98" height="50" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="177" y="80" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="14" font-weight="600" fill="#1a1a1a">ASSUMPTIONS</text>
+<text x="177" y="118" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="10.5" fill="#666">Chapter 8</text>
+<line x1="226" y1="75" x2="243" y2="75" stroke="#1a1a1a" stroke-width="1.1" marker-end="url(#ptl2-arrow)"/>
+<rect x="244" y="50" width="98" height="50" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="293" y="80" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="14" font-weight="600" fill="#1a1a1a">MODEL</text>
+<text x="293" y="118" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="10.5" fill="#666">Chapter 6</text>
+<line x1="342" y1="75" x2="359" y2="75" stroke="#1a1a1a" stroke-width="1.1" marker-end="url(#ptl2-arrow)"/>
+<rect x="360" y="50" width="98" height="50" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="409" y="80" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="14" font-weight="600" fill="#1a1a1a">COMPUTATION</text>
+<text x="409" y="118" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="10.5" fill="#666">Chapter 4</text>
+<line x1="458" y1="75" x2="475" y2="75" stroke="#1a1a1a" stroke-width="1.1" marker-end="url(#ptl2-arrow)"/>
+<rect x="476" y="50" width="98" height="50" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="525" y="80" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="14" font-weight="600" fill="#1a1a1a">FORECAST</text>
+<text x="525" y="118" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="10.5" fill="#666">Chapter 1</text>
+<line x1="574" y1="75" x2="591" y2="75" stroke="#1a1a1a" stroke-width="1.1" marker-end="url(#ptl2-arrow)"/>
+<rect x="592" y="50" width="98" height="50" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="641" y="80" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="14" font-weight="600" fill="#1a1a1a">DECISION</text>
+<text x="352" y="160" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="10.5" font-style="italic" fill="#444">Each link tends to snap in a different way — the shape of the wrongness is a clue to which one to check first.</text>
+</svg>
+</div>
+
 ## Diagnosing a joint, not guessing at the whole
 
 The useful habit this chapter is building toward: when a forecast feels off, you are not stuck choosing between "trust it" and "distrust it" as a single vague judgement. You can ask which specific link is the suspect, and the kind of "off" tells you where to look first.

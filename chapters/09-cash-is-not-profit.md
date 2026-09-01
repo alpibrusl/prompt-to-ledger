@@ -17,16 +17,18 @@ The rest of the gap was not a growth-rate problem at all. Ledgerly had already e
 Recompute runway honestly: the more defensible growth rate from Chapter 8, plus a burn rate that includes a hire the company had already committed to, and the number lands closer to eight months than to eighteen. Same cash in the bank. Same company. A forecast that was, on its face, more than twice as reassuring as the one a founder should actually be planning against — not from any single dramatic error, but from two ordinary ones compounding quietly in the same direction.
 
 <div style="margin:1.6rem 0;">
-<svg viewBox="0 0 740 230" width="100%" style="display:block;" xmlns="http://www.w3.org/2000/svg">
-<text x="185" y="42" text-anchor="end" font-family="EB Garamond, Georgia, serif" font-size="12" fill="#444">Reported</text>
-<rect x="200" y="25" width="468" height="34" fill="#eee" stroke="#999" stroke-width="1.5" stroke-dasharray="4,3"/>
-<text x="678" y="47" font-family="EB Garamond, Georgia, serif" font-size="12" fill="#1a1a1a">18 months</text>
-<text x="185" y="117" text-anchor="end" font-family="EB Garamond, Georgia, serif" font-size="12" fill="#444">+ honest growth rate</text>
-<rect x="200" y="100" width="312" height="34" fill="#ccc" stroke="#999" stroke-width="1.5"/>
-<text x="522" y="122" font-family="EB Garamond, Georgia, serif" font-size="12" fill="#1a1a1a">~12 months</text>
-<text x="185" y="192" text-anchor="end" font-family="EB Garamond, Georgia, serif" font-size="12" fill="#444">+ the committed hire</text>
-<rect x="200" y="175" width="208" height="34" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5"/>
-<text x="418" y="197" font-family="EB Garamond, Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a">~8 months — honest</text>
+<svg viewBox="0 0 740 250" width="100%" style="display:block;" xmlns="http://www.w3.org/2000/svg">
+<text x="200" y="24" font-family="EB Garamond, Georgia, serif" font-size="10.5" letter-spacing="0.06em" fill="#9a9a9a">RUNWAY, RECOMPUTED</text>
+<text x="185" y="60" text-anchor="end" font-family="EB Garamond, Georgia, serif" font-size="11" fill="#666">Reported</text>
+<rect x="200" y="43" width="468" height="34" fill="#eee" stroke="#1a1a1a" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="678" y="65" font-family="EB Garamond, Georgia, serif" font-size="12" fill="#1a1a1a">18 months</text>
+<text x="185" y="135" text-anchor="end" font-family="EB Garamond, Georgia, serif" font-size="11" fill="#666">+ honest growth rate</text>
+<rect x="200" y="118" width="312" height="34" fill="#ccc" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="522" y="140" font-family="EB Garamond, Georgia, serif" font-size="12" fill="#1a1a1a">~12 months</text>
+<text x="185" y="210" text-anchor="end" font-family="EB Garamond, Georgia, serif" font-size="11" fill="#666">+ the committed hire</text>
+<rect x="200" y="193" width="208" height="34" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="418" y="215" font-family="EB Garamond, Georgia, serif" font-size="12" font-weight="600" fill="#1a1a1a">~8 months — honest</text>
+<text x="470" y="240" text-anchor="middle" font-family="EB Garamond, Georgia, serif" font-size="10.5" font-style="italic" fill="#444">Two ordinary corrections, compounding quietly, cut the reported runway by more than half.</text>
 </svg>
 </div>
 
