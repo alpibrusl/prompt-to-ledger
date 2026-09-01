@@ -51,9 +51,14 @@ checklist at all.
 3. **For checkable items, trace the actual formulas**, not a summary of
    them. Name what you found specifically — "burn is defined as `opex -
    revenue`, which omits the payroll tax line in row 14" is useful; "the
-   burn calculation looks reasonable" is not. Identify the single
-   assumption the headline number is most sensitive to, and say plainly
-   whether a documented reason for its value exists.
+   burn calculation looks reasonable" is not. Reproduce the headline
+   number yourself from the model's own inputs — cash divided by burn
+   for a runway, the compounded rate for a growth claim — and compare it
+   with the number as stated; a headline that cannot be regenerated from
+   the inputs was narrated, not computed, whatever the spreadsheet next
+   to it looks like. Identify the single assumption the headline number
+   is most sensitive to, and say plainly whether a documented reason for
+   its value exists.
 
 4. **For ask-human and the human half of mixed items, actually ask** —
    especially the outside-the-model items (bank reconciliation, legal/tax

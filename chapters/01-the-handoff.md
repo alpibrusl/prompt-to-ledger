@@ -8,7 +8,7 @@ It might be correct. That is the entire problem this book is about.
 
 Here is the first idea, and everything else in this book follows from it.
 
-What the agent gave you is a **forecast**: a number projected forward by a model, built from **assumptions** — the inputs the model treats as true, whether or not anyone checked them. A forecast is not a fact. It is not even a claim about what will happen. It is a claim about what *would* happen if every assumption inside it turned out to be right — and those assumptions are invisible from the forecast alone. Eighteen months of runway and eight months of runway can come out of a spreadsheet that looks, on the screen, identical.
+What the agent gave you is a **forecast**: a number projected forward by a model, built from **assumptions** — the inputs the model treats as true, whether or not anyone checked them. A forecast is not a fact. It is not even a claim about what will happen. It is a claim about what *would* happen if every assumption inside it turned out to be right — and those assumptions are invisible from the forecast alone. Eighteen months of runway and eleven months of runway can come out of a spreadsheet that looks, on the screen, identical.
 
 The path runs: a decision you actually need to make, then assumptions about the business, then a model applied to those assumptions, then a computation, then a forecast, then the decision made on the strength of it. Six links. The agent can produce the last one — the forecast — in under a minute. Whether the four links before it were sound is a separate matter entirely, and the forecast does not carry that information on its face.
 

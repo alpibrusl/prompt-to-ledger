@@ -113,6 +113,12 @@ sessions:
       months pattern quickly by eyeballing the CSV; the harder, more
       valuable part is getting them to state *why* the representative
       rate is the more defensible one, not just that it's smaller.
+      Reference rates the generated CSV yields: about 10% a month from
+      the last two transitions, 3% from the first ten, about 4.1% across
+      the full year, about 5.3% across the last six months. The memo
+      states no rate; "triples" backs out to about 9.6%, which is the
+      naive one. Chapter 8's "four percent" is closest to the full-year
+      figure.
 
   - number: 5
     title: "Cash Is Not Profit"
@@ -144,6 +150,14 @@ sessions:
       redoing the runway arithmetic with both corrections applied at
       once, growth rate and cost together. Push for the actual recomputed
       number, not just the finding that something was missing.
+      Reference answers for the generated fixture: cash / burn with no
+      growth is 12.0 months (180,000 / 15,000); with the hire and no
+      growth, 8.2; with the hire and the full-year rate (about 4.1%),
+      cash runs out in month 11; with the hire and the steady 3% rate,
+      month 10. The memo's eighteen is reproducible from none of these:
+      at the memo's own 10% rate the cash never runs out at all, so the
+      eighteen is the length of the memo's projection, not cash divided
+      by burn — the same finding Chapter 9 makes.
 
   - number: 6
     title: "A Range, and Whose Money It Is"

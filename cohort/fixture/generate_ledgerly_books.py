@@ -39,7 +39,13 @@ from pathlib import Path
 # The scenario, as numbers. Every figure below is chosen so the arithmetic
 # a student does by hand lands close to what Chapters 8 and 9 already walk
 # through -- close, not identical, so the exercise is a real calculation
-# and not a lookup against the book's own printed answer.
+# and not a lookup against the book's own printed answer. With these
+# figures: cash / burn with no growth is 12.0 months; with the hire and no
+# growth, 8.2; with the hire and the full-year rate the CSV implies (about
+# 4.1% a month), cash runs out in month 11; with the hire and the steady
+# rate alone (3%), month 10. The memo's 18 is reproducible from none of
+# them -- at the memo's own 10% rate the cash never runs out, which is the
+# point Chapter 9 makes about where that number came from.
 # ---------------------------------------------------------------------------
 
 TODAY_REVENUE = 20_000.00          # this month's revenue, collected (EUR)
@@ -50,7 +56,7 @@ MONTHLY_COST_CURRENT = 35_000.00   # current monthly cash costs (EUR), before th
 # The first 10 are steady, representative growth. The last 2 are the
 # anomaly: a single large customer signing, landing as two invoices in two
 # consecutive months.
-STEADY_MONTHLY_GROWTH = 0.023
+STEADY_MONTHLY_GROWTH = 0.03
 ANOMALY_MONTHLY_GROWTH = 0.10
 GROWTH_TRANSITIONS = [STEADY_MONTHLY_GROWTH] * 10 + [ANOMALY_MONTHLY_GROWTH] * 2
 
@@ -99,7 +105,7 @@ FORECAST_MEMO = """\
 Prepared for the seed deck.
 
 - **12-month revenue forecast:** revenue triples over the next 12 months.
-- **Runway:** 18 months at current cash and spend.
+- **Runway:** 18 months (cash positive through the full 18-month projection).
 - **Bottom line:** the deck is ready to go out.
 
 *(Model available on request.)*
