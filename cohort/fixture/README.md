@@ -22,10 +22,22 @@ python3 generate_ledgerly_books.py /path/to/output     # or choose where
 ```
 
 Run this **fresh before each session** that uses the fixture, not once at
-the start of the cohort. A student who's already worked out the honest
-growth rate or the honest runway in a previous session should be
-recomputing it from the same numbers, not remembering last time's answer
-from a stale copy sitting around from a previous cohort.
+the start of the cohort — a clean directory, so nobody is working from a
+copy someone else has already annotated.
+
+The numbers are the same every run, deliberately: they are seeded, so the
+facilitator notes can state the expected answers. For a cohort that has
+seen this fixture before, `--seed N` produces a different trailing year
+with the same shape and the same lessons — the growth anomaly, the
+committed hire, the memo's unreproducible runway — but different figures
+to work through.
+
+Today's revenue, cash and monthly costs are never varied: Chapters 8 and 9
+quote them, so they have to match the book. Everything behind today
+wobbles the way a real bookkeeping export does, which is why the Session 3
+back-test lands close rather than exact. A back-test that reproduces a
+forecast to the cent has taught the wrong lesson about what reproducing
+means.
 
 The generated directory is disposable: this script is the source, the
 directory it produces is a build artifact, and `.gitignore` here keeps it

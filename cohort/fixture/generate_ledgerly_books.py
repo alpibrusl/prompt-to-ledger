@@ -32,6 +32,7 @@ source.
 from __future__ import annotations
 
 import csv
+import random
 import sys
 from pathlib import Path
 
@@ -64,18 +65,49 @@ GROWTH_TRANSITIONS = [STEADY_MONTHLY_GROWTH] * 10 + [ANOMALY_MONTHLY_GROWTH] * 2
 NEW_HIRE_MONTHLY_COST = 7_000.00
 NEW_HIRE_START_MONTH_LABEL = "next month"
 
+# Monthly costs wobble. Before this, every one of the twelve months was exactly
+# EUR 35,000.00 and revenue was an exact geometric series, while the README told
+# students to "read it as a real bookkeeping export" -- and the Session 3
+# back-test came out perfect to the cent, which is the one outcome a real
+# back-test never has. A student who reproduces a forecast exactly has learned
+# the wrong lesson about what reproducing means.
+#
+# The jitter is seeded, so the numbers are stable across runs and the
+# facilitator notes can state expected answers. --seed varies them for a
+# cohort that has seen the fixture before. Today's figures are never jittered:
+# revenue, cash and current costs are quoted verbatim in Chapters 8 and 9 and
+# have to match the book.
+COST_JITTER = 0.05        # +/- 5% on historical monthly costs
+GROWTH_JITTER = 0.01      # +/- 1 point on each monthly growth transition
+DEFAULT_SEED = 8812       # the invoice number from Chapter 10's logs
 
-def build_monthly_table() -> list[dict]:
+
+def build_monthly_table(seed: int = DEFAULT_SEED) -> list[dict]:
     """13 monthly data points (month 0 through month 12, month 12 = today),
     computed backward from today's known revenue and cash so the whole
-    trailing year is internally consistent."""
+    trailing year is internally consistent.
+
+    Historical months carry seeded jitter; today's figures do not, because the
+    book quotes them. Cash is still derived from revenue and costs rather than
+    jittered separately, so the balance column reconciles to the cent even
+    though no other column is round."""
+    rng = random.Random(seed)
 
     revenue = [0.0] * 13
     revenue[12] = TODAY_REVENUE
     for t in range(12, 0, -1):
-        revenue[t - 1] = revenue[t] / (1 + GROWTH_TRANSITIONS[t - 1])
+        rate = GROWTH_TRANSITIONS[t - 1] + rng.uniform(-GROWTH_JITTER, GROWTH_JITTER)
+        revenue[t - 1] = revenue[t] / (1 + rate)
 
-    costs = [None] + [MONTHLY_COST_CURRENT] * 12  # month 0 has no cost figure (start of window)
+    costs: list[float | None] = [None] + [MONTHLY_COST_CURRENT] * 12
+    for t in range(1, 12):  # month 12 is today and stays exact
+        costs[t] = round(MONTHLY_COST_CURRENT * (1 + rng.uniform(-COST_JITTER, COST_JITTER)), 2)
+
+    # Round revenue before deriving cash. A real bookkeeping export reconciles
+    # to the cent, and deriving the balance from unrounded revenue leaves a
+    # one-cent drift that a careful student would report as a finding -- an
+    # artefact of the generator, not one of the planted lessons.
+    revenue = [round(r, 2) for r in revenue]
 
     cash = [0.0] * 13
     cash[12] = TODAY_CASH
@@ -128,28 +160,21 @@ forecast model with it.
 FIXTURE_README = """\
 # What's in this directory
 
-This is what Ledgerly's own books actually show, the same trailing year
-Chapters 7, 8, and 9 draw their numbers from. Nothing here is labeled
-"the bug" or "the answer" -- that's the point. Everything a student needs
-to find the load-bearing assumption and the honest runway is in these
-three files; finding it is the exercise.
+Ledgerly's books for the trailing year, plus the forecast that was handed
+to the board and one piece of correspondence from the same period.
 
 - `trailing-12-months.csv` -- monthly revenue collected, monthly cash
-  costs, burn, and cash balance, for the 12 months leading up to today
-  (month 0). Read it as a real bookkeeping export, not a hint sheet.
-- `forecast-as-delivered.md` -- the headline forecast as it was actually
-  handed over: a narrated conclusion, no visible formulas, no model
-  attached. This is Chapter 4's complaint, in the room.
-- `signed-offer-letter.md` -- a real, already-committed cost that
-  `forecast-as-delivered.md` never mentions. This is Chapter 9's
-  complaint, in the room.
+  costs, burn, and cash balance for the twelve months up to today.
+  Exported from the bookkeeping system.
+- `forecast-as-delivered.md` -- the seed-round forecast, as delivered.
+- `signed-offer-letter.md` -- correspondence, same period.
 """
 
 
-def write_files(out: Path) -> None:
+def write_files(out: Path, seed: int = DEFAULT_SEED) -> None:
     out.mkdir(parents=True)
 
-    rows = build_monthly_table()
+    rows = build_monthly_table(seed)
     csv_path = out / "trailing-12-months.csv"
     with csv_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
@@ -172,17 +197,25 @@ def write_files(out: Path) -> None:
 
 
 def main() -> None:
-    out = Path(sys.argv[1] if len(sys.argv) > 1 else "./ledgerly-books")
+    args = [a for a in sys.argv[1:]]
+    seed = DEFAULT_SEED
+    if "--seed" in args:
+        i = args.index("--seed")
+        seed = int(args[i + 1])
+        del args[i : i + 2]
+    out = Path(args[0] if args else "./ledgerly-books")
     if out.exists():
         print(f"error: {out} already exists -- remove it or pass a different output path", file=sys.stderr)
         raise SystemExit(1)
 
-    write_files(out)
+    write_files(out, seed)
 
-    print(f"generated fixture at {out}")
+    print(f"generated fixture at {out}  (seed {seed})")
     print(f"today's revenue: EUR {TODAY_REVENUE:,.2f}  |  today's cash: EUR {TODAY_CASH:,.2f}")
     print("the committed hire is described only in signed-offer-letter.md -- "
           "the forecast memo never mentions it")
+    print("historical months carry seeded jitter, so the back-test lands close "
+          "and not exact -- pass --seed N for a cohort that has seen this before")
 
 
 if __name__ == "__main__":
