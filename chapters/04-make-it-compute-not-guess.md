@@ -2,7 +2,7 @@
 
 Chapter 3 named the computation link in the chain, and gave it one line: arithmetic done by narration instead of by running an actual formula. This chapter is that line, in full because it is the single most avoidable way a forecast in this book's sense fails to become one.
 
-If you've read one of this book's companion volumes, the next four chapters will feel familiar — the same discipline, chapter for chapter, aimed at a spreadsheet instead of code or a statistical result. That's deliberate, not an accident of reusing an outline: it's the same gap between capability and judgement, showing up in a third place. Recognising the pattern is itself part of the point.
+If you have read *Prompt to Evidence*, the next four chapters will feel familiar — the same discipline, chapter for chapter, aimed at a spreadsheet instead of code or a statistical result. That's deliberate, not an accident of reusing an outline: it's the same gap between capability and judgement, showing up in a third place. Recognising the pattern is itself part of the point.
 
 ## Why the agent is worst at exactly the thing it sounds most confident about
 
