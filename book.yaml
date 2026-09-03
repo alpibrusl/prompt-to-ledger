@@ -37,24 +37,24 @@ chapters:
   # convention in prompt-to-production's and prompt-to-evidence's book.yaml.
   # The Markdown source keeps its own plain H1.
   # Part I — The Ground
-  - { file: chapters/01-the-handoff.md,                    title: "Chapter 1 — The Handoff" }
+  - { file: chapters/01-the-handoff.md,                    title: "Chapter 1 — The Handoff", part: "Part I — The Ground" }
   - { file: chapters/02-where-the-money-actually-lives.md,  title: "Chapter 2 — Where the Money Actually Lives" }
   - { file: chapters/03-the-shape-of-a-model.md,            title: "Chapter 3 — The Shape of a Model" }
   # Part II — Trusting the Model
-  - { file: chapters/04-make-it-compute-not-guess.md,       title: "Chapter 4 — Make It Compute, Not Guess" }
+  - { file: chapters/04-make-it-compute-not-guess.md,       title: "Chapter 4 — Make It Compute, Not Guess", part: "Part II — Trusting the Model" }
   - { file: chapters/05-the-tool-not-the-answer.md,         title: "Chapter 5 — The Tool, Not the Answer" }
   - { file: chapters/06-borrowed-not-reinvented.md,         title: "Chapter 6 — Borrowed, Not Reinvented" }
   - { file: chapters/07-test-it-against-what-you-know.md,   title: "Chapter 7 — Test It Against What You Already Know" }
   # Part III — Making the Decision
-  - { file: chapters/08-is-this-assumption-doing-all-the-work.md, title: "Chapter 8 — Is This Assumption Doing All the Work?" }
+  - { file: chapters/08-is-this-assumption-doing-all-the-work.md, title: "Chapter 8 — Is This Assumption Doing All the Work?", part: "Part III — Making the Decision" }
   - { file: chapters/09-cash-is-not-profit.md,              title: "Chapter 9 — Cash Is Not Profit" }
   - { file: chapters/10-confidence-not-certainty.md,        title: "Chapter 10 — Confidence, Not Certainty" }
   - { file: chapters/11-whose-money-is-it.md,               title: "Chapter 11 — Whose Money Is It" }
   # Part IV — Seeing and Trusting the Numbers
-  - { file: chapters/12-a-chart-is-a-claim.md,              title: "Chapter 12 — A Chart Is a Claim" }
+  - { file: chapters/12-a-chart-is-a-claim.md,              title: "Chapter 12 — A Chart Is a Claim", part: "Part IV — Seeing and Trusting the Numbers" }
   - { file: chapters/13-numbers-you-can-trust.md,           title: "Chapter 13 — Numbers You Can Trust" }
   # Part V — Working With the Agent
-  - { file: chapters/14-asking-the-right-question.md,       title: "Chapter 14 — Asking the Right Question" }
+  - { file: chapters/14-asking-the-right-question.md,       title: "Chapter 14 — Asking the Right Question", part: "Part V — Working With the Agent" }
   - { file: chapters/15-the-minimum-bar.md,                 title: "Chapter 15 — The Minimum Bar" }
   # Afterword. Deliberately left unnumbered, like the equivalent chapter in
   # prompt-to-production — see "The afterword is a real chapter, not front
