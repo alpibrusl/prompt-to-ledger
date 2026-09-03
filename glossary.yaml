@@ -17,6 +17,12 @@
 kind: technical
 title: "Prompt to Ledger"
 
+# Chapter 14 teaches how to ask rather than a word to ask it with -- what a
+# complete request contains, and when the honest answer is to bring in a real professional.
+# Chapter 15 is the closing checklist and 16 the afterword: both recap the
+# book's vocabulary rather than extend it, so neither introduces a term.
+teaches_no_terms: [14, 15, 16]
+
 concepts:
 
   # ─── Chapter 1 — The Handoff ────────────────────────────────────────────
@@ -94,6 +100,23 @@ concepts:
       back to inputs.
     depends_on: ["input"]
     defined_in: 3
+
+  # ─── Chapter 4 — Make It Compute, Not Guess ─────────────────────────────
+  - term: "computation"
+    definition: >-
+      Arithmetic done by narration instead of by running an actual formula.
+      The link in the chain where a confidently-stated number can simply be
+      wrong, with nothing in the tone of the answer to say so.
+    analogy: >-
+      A calculator does not predict what 47 times 83 is; it computes it,
+      tracking every digit the same way on the millionth calculation as on
+      the first.
+    depends_on: ["formula"]
+    defined_in: 4
+    # Not scanned: "computation" is ordinary English, and Chapter 1 uses it
+    # while naming the chain. Hunting for it would cry wolf on the book's own
+    # roadmap -- the exact false positive that teaches people to ignore a gate.
+    scan: false
 
   # ─── Chapter 5 — The Tool, Not the Answer ───────────────────────────────
   - term: "parameter"
@@ -218,12 +241,32 @@ concepts:
       to that share of whatever the company is eventually worth.
     defined_in: 11
 
+  # The book bolds all three separately in Chapter 11, and the distinction
+  # between the two versions is the whole arithmetic of a term sheet, so they
+  # are three concepts rather than one entry that mentions the other two.
   - term: "valuation"
     definition: >-
-      What a company is said to be worth. Pre-money valuation is what it's
-      worth before a new investment is added; post-money valuation is
-      pre-money plus the new cash.
+      What a company is said to be worth. It comes in two versions that
+      matter for different reasons — see pre-money and post-money valuation.
     depends_on: ["equity"]
+    defined_in: 11
+    scan: true
+
+  - term: "pre-money valuation"
+    definition: >-
+      What a company is worth before a new investment is added. The number
+      an option pool is usually carved out of, which is why it decides how
+      much a round actually dilutes the existing shareholders.
+    depends_on: ["valuation"]
+    defined_in: 11
+
+  - term: "post-money valuation"
+    definition: >-
+      Pre-money plus the new cash — simply the pre-money valuation plus the
+      investment amount, because the cash itself becomes part of what the
+      company owns the moment it lands in the bank. A new investor's
+      ownership share is their investment divided by this number.
+    depends_on: ["pre-money valuation"]
     defined_in: 11
 
   - term: "dilution"
