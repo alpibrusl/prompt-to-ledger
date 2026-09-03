@@ -106,6 +106,37 @@ Where a real decision needs that kind of advice, the book says so and hands
 off to a professional, the same way *Prompt to Evidence* hands off to a
 statistician for research-grade statistics.
 
+## Installing the skill
+
+`skills/verify-ledger/` is this book's closing checklist, packaged so an agent runs
+it. It is what Session 8 of the bootcamp asks students to run, and it works in
+any agent that reads the `SKILL.md` format.
+
+Copy the whole folder — `SKILL.md` and the `references/` directory beside it.
+The checklist the skill actually works from lives in `references/`, so
+`SKILL.md` on its own loads and then has nothing to read.
+
+**Claude Code** — `~/.claude/skills/verify-ledger/` for every project, or
+`.claude/skills/verify-ledger/` for one.
+
+**opencode** — reads `~/.claude/skills/` as well, so the line above may be all
+you need. Otherwise `~/.config/opencode/skills/verify-ledger/`, or point at this
+repository without copying anything:
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "skills": { "paths": ["/path/to/prompt-to-ledger/skills"] }
+}
+```
+
+`opencode debug skill` lists every skill it can see and where each came from.
+Needs 1.17.12 or newer — `references/` path resolution was fixed in 1.17.10 and
+1.17.12, and on older builds the skill loads but cannot read its own checklist.
+
+The agent decides when the skill applies; you do not invoke it by name. The
+same instructions are in the book itself, as *Appendix — Running the Skill*.
+
 ## Licence
 
 Manuscript: [CC BY-NC 4.0](COPYING.md). Code: [EUPL-1.2](LICENSE), matching
