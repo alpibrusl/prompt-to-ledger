@@ -2,7 +2,7 @@
 
 Chapter 3 introduced the move: separate the assumptions from the formulas, and check what each input actually deserves to be trusted. This chapter is what that actually looks like in practice, and how to tell whether you got it.
 
-## The test that actually matters
+## The test that matters
 
 Here is the concrete question to ask about any model built for you: **if the growth rate turned out to be different, or the hiring plan changed, would this same model still work — or would someone have to rebuild it?**
 

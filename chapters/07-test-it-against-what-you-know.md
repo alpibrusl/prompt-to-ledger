@@ -1,6 +1,6 @@
 # Test It Against What You Already Know
 
-Every chapter so far has been about reducing the chance a model is wrong. This one is about catching it anyway, because reducing the chance is never the same thing as reaching zero, and the last line of defence is the cheapest one in this entire book.
+Every chapter so far has been about reducing the chance a model is wrong. This one is about catching it anyway because reducing the chance is never the same thing as reaching zero, and the last line of defence is the cheapest one in this entire book.
 
 ## The known-answer test
 
@@ -26,9 +26,9 @@ Treat both the same way. **A suspiciously good forecast and a suspiciously bad o
 
 The reasoning underneath this is not superstition, it's arithmetic about how often things actually happen. Genuinely transformative quarters are rare — most real businesses move a few percentage points at a time, not a multiple. Assumption errors and formula mistakes, on the other hand, are common; an optimistic growth rate carried too far, a double-counted cost, a formula that references the wrong row, all of these are far more frequent events than a real result several times better than anything you've seen before. When a forecast is extreme, the honest calculation is that it is more likely to be one of the common causes wearing an exciting costume than a rare, genuine breakthrough wearing an ordinary one.
 
-The failure mode to watch for in yourself is asymmetric relief: quietly re-checking the bad-looking forecasts harder than the good-looking ones, because the good ones feel like they've already earned belief. They haven't. A number that flatters what you were hoping for is not thereby more likely to be correct.
+The failure mode to watch for in yourself is asymmetric relief: quietly re-checking the bad-looking forecasts harder than the good-looking ones because the good ones feel like they've already earned belief. They haven't. A number that flatters what you were hoping for is not thereby more likely to be correct.
 
-## What checking actually looks like
+## What checking looks like
 
 Chapter 3 already gave you the diagnostic habit — the *shape* of a wrong-feeling forecast points at a different link in the chain. For the extreme case specifically: a suspiciously good forecast, check the assumptions first — something is probably being extrapolated from too little or too optimistic a moment. A suspiciously bad one, check the formulas first — something in the model likely broke. For an ordinary-looking forecast that simply failed a consistency check, the diagnostic habit is the same one, applied more broadly: find the specific link where the two disagreeing numbers diverge, rather than assuming the newer or less-trusted one is automatically the culprit.
 

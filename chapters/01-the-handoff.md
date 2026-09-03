@@ -1,6 +1,6 @@
 # The Handoff
 
-You ask Ledgerly's agent to put together the numbers for the seed round. It comes back in a minute with a full model: *revenue triples in twelve months, you have eighteen months of runway, the deck is ready.* The sentence arrives fast, sounds definite, and reads exactly the way a correct answer would read.
+You ask the agent at Ledgerly — an invoicing tool for freelancers, and this book's running example — to put together the numbers for the seed round. It comes back in a minute with a full model: *revenue triples in twelve months, you have eighteen months of runway, the deck is ready.* The sentence arrives fast, sounds definite, and reads exactly the way a correct answer would read.
 
 It might be correct. That is the entire problem this book is about.
 
@@ -23,7 +23,7 @@ The other kind is quieter, and it is what the rest of this book is for. The mode
 - The growth rate driving the whole forecast was read off two unusually good months, not a repeatable trend.
 - The runway number didn't account for the hire you already decided to make next month.
 - The forecast assumes every signed contract collects on time, and two of your biggest customers pay sixty days late.
-- The model is profitable on paper and would run out of cash anyway, because profit and cash are not the same thing and nothing in the spreadsheet says so.
+- The model is profitable on paper and would run out of cash anyway because profit and cash are not the same thing and nothing in the spreadsheet says so.
 
 None of these announce themselves. A model does not turn red when an assumption is doing more work than it can bear. This is the kind of wrong you own by understanding the model, not by staring harder at the number — Chapter 8 onward is a set of specific, checkable questions built to catch exactly this category, because *looking plausible* and *being true* are different properties, and only one of them is visible from the forecast.
 

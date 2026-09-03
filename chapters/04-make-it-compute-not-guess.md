@@ -1,6 +1,6 @@
 # Make It Compute, Not Guess
 
-Chapter 3 named the computation link in the chain, and gave it one line: arithmetic done by narration instead of by running an actual formula. This chapter is that line, in full, because it is the single most avoidable way a forecast in this book's sense fails to become one.
+Chapter 3 named the computation link in the chain, and gave it one line: arithmetic done by narration instead of by running an actual formula. This chapter is that line, in full because it is the single most avoidable way a forecast in this book's sense fails to become one.
 
 If you've read one of this book's companion volumes, the next four chapters will feel familiar — the same discipline, chapter for chapter, aimed at a spreadsheet instead of code or a statistical result. That's deliberate, not an accident of reusing an outline: it's the same gap between capability and judgement, showing up in a third place. Recognising the pattern is itself part of the point.
 
@@ -8,7 +8,7 @@ If you've read one of this book's companion volumes, the next four chapters will
 
 An agent produces a response one piece at a time, each one chosen because it is the most plausible continuation of everything written so far. For most of what it writes, *most plausible* and *correct* are the same thing, which is why it reads as fluent and reliable. Arithmetic — and a financial model is arithmetic, chained many layers deep — is the case where they quietly come apart.
 
-A spreadsheet formula does not predict what a column of numbers sums to. It computes it, mechanically, the same way on the millionth calculation as on the first. An agent asked to state a model's output in the middle of a sentence, without actually running the calculation, is doing something different: producing the number that *looks like* the kind of number that would follow, built from patterns in similar-sounding numbers it has seen before, not from mechanically evaluating the formula chain the way a spreadsheet does by construction. For short, simple arithmetic this usually lands close enough anyway, because the pattern and the truth line up often enough. Chain a dozen line items together — revenue by month, compounding growth, a headcount ramp with a hiring plan layered on top — and the pattern and the truth have far more room to separate, quietly, with nothing in the tone of the answer to tell you it happened.
+A spreadsheet formula does not predict what a column of numbers sums to. It computes it, mechanically, the same way on the millionth calculation as on the first. An agent asked to state a model's output in the middle of a sentence, without actually running the calculation, is doing something different: producing the number that *looks like* the kind of number that would follow, built from patterns in similar-sounding numbers it has seen before, not from mechanically evaluating the formula chain the way a spreadsheet does by construction. For short, simple arithmetic this usually lands close enough anyway because the pattern and the truth line up often enough. Chain a dozen line items together — revenue by month, compounding growth, a headcount ramp with a hiring plan layered on top — and the pattern and the truth have far more room to separate, quietly, with nothing in the tone of the answer to tell you it happened.
 
 That last part is the one to sit with: a wrong forecast produced this way carries exactly the same confident, unhedged delivery as a right one. No stammer, no qualifier, no visible seam — which is why the fix below has to be mechanical rather than a matter of asking more carefully.
 
@@ -18,7 +18,7 @@ Asking the agent to "double-check" or "be careful" does not reliably help, becau
 
 The actual fix is not more care. It is a different method entirely: **have the agent build the model as an actual spreadsheet or a script that computes each value from its inputs, rather than stating a forecast's numbers directly in conversation.** A real spreadsheet formula, or a real line of code, performs the arithmetic the same mechanical way every single time, regardless of how plausible or implausible the answer looks. This is not a nicer way of getting the same thing. It is a categorically different process, and it is the one whose arithmetic actually deserves your trust — not because building it this way guarantees a correct model, only because it guarantees an actual computation happened rather than a guess dressed as one. Whether that computation used the right formula at all is a separate question — Chapters 6 and 7 are what answer it.
 
-## What "trivial" actually means
+## What "trivial" means
 
 This does not mean demanding a full spreadsheet to answer "how many customers do we currently have." That is retrieval, not inference — the agent is reading a count from your existing data, not deriving one through several layers of assumptions, and the risk this chapter is about does not apply to it in the same way.
 
