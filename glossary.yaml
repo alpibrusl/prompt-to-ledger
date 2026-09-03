@@ -31,12 +31,14 @@ concepts:
     definition: >-
       A number projected forward by a financial model, built from
       assumptions. Not, by itself, something you can act on.
+    analogy: "A weather forecast, not a weather report."
     defined_in: 1
 
   - term: "assumption"
     scan: true
     definition: >-
       An input a model treats as true, whether or not anyone checked it.
+    analogy: "The fine print on a warranty: unread until the thing breaks."
     depends_on: ["forecast"]
     defined_in: 1
 
@@ -45,6 +47,7 @@ concepts:
     definition: >-
       Counting a transaction when money actually moves — a sale recorded
       when the customer pays, a bill recorded when it's settled.
+    analogy: "Counting the money as it crosses the counter."
     defined_in: 2
 
   - term: "accrual accounting"
@@ -52,6 +55,7 @@ concepts:
       Counting a transaction when it's earned or incurred, regardless of
       when cash moves — a sale recorded the moment it's delivered, whether
       or not the invoice has been paid yet.
+    analogy: "Counting the sale as the goods leave the shop, whoever pays later."
     depends_on: ["cash accounting"]
     defined_in: 2
 
@@ -61,6 +65,7 @@ concepts:
       A report of whether a period's activity made money — revenue earned
       minus the costs of earning it, over a period of time, built on
       accrual accounting.
+    analogy: "The video of the quarter — the balance sheet is the photograph."
     depends_on: ["accrual accounting"]
     defined_in: 2
 
@@ -69,6 +74,7 @@ concepts:
       A report of what a business owns and owes at a single instant, like a
       photograph rather than a video — what it owns minus what it owes is
       what it's worth on paper at that moment.
+    analogy: "A photograph of the business at one instant."
     defined_in: 2
 
   - term: "cash flow statement"
@@ -76,6 +82,7 @@ concepts:
       A report of how much actual cash moved and where it went, built by
       adjusting the income statement's accrual-basis profit back toward
       cash until what's left is the real change in the bank balance.
+    analogy: "The bank statement, rebuilt from the books."
     depends_on: ["income statement", "cash accounting"]
     defined_in: 2
 
@@ -83,6 +90,7 @@ concepts:
   - term: "financial model"
     definition: >-
       A set of assumptions connected by formulas to produce a forecast.
+    analogy: "A row of assumptions wired together: pull one and the rest move."
     depends_on: ["assumption"]
     defined_in: 3
 
@@ -91,6 +99,7 @@ concepts:
       A number someone typed into a model because they believe it to be
       true, or expect it to become true. Nothing calculates an input; it is
       the model's opinion about the world, stated as a number.
+    analogy: "The first domino, placed by hand."
     depends_on: ["financial model"]
     defined_in: 3
 
@@ -98,6 +107,7 @@ concepts:
     definition: >-
       A cell whose value is computed from other cells, ultimately tracing
       back to inputs.
+    analogy: "A domino that falls because another one did."
     depends_on: ["input"]
     defined_in: 3
 
@@ -125,6 +135,7 @@ concepts:
       The part of a model that changes from one run to the next — a growth
       rate, a hiring plan, a price — kept separate from the formulas that
       stay fixed regardless of what value is supplied.
+    analogy: "The date you type into the form, not the form."
     depends_on: ["input"]
     defined_in: 5
 
@@ -133,6 +144,7 @@ concepts:
     definition: >-
       Revenue minus the direct cost of delivering what was sold, divided by
       revenue.
+    analogy: "What the bakery keeps on a loaf, before rent and wages."
     defined_in: 6
 
   - term: "customer acquisition cost"
@@ -141,11 +153,13 @@ concepts:
       Everything spent to acquire a customer over a period — marketing
       spend, sales salaries, tools — divided by the number of customers
       actually acquired in that period.
+    analogy: "What the shop paid to get one person through the door."
     defined_in: 6
 
   - term: "churn rate"
     definition: >-
       The share of customers who cancel in a given period.
+    analogy: "The share of the audience who leave before the interval."
     defined_in: 6
 
   - term: "lifetime value"
@@ -154,6 +168,7 @@ concepts:
       The total gross margin a customer generates over the whole time they
       stay a customer, estimated from margin per period and the average
       customer lifetime implied by the churn rate.
+    analogy: "What that person spends in total before they stop coming back."
     depends_on: ["gross margin", "churn rate"]
     defined_in: 6
 
@@ -164,6 +179,7 @@ concepts:
       Running a model against a case where the correct result is already
       known, to check the model itself before trusting it on a case where
       the answer isn't.
+    analogy: "Weighing a bag of sugar you know is a kilo, to test the scale."
     depends_on: ["parameter"]
     defined_in: 7
 
@@ -174,6 +190,7 @@ concepts:
       the surrounding trend. The scalable form of suspicion: run
       continuously on every forecast, not just the extreme-looking ones,
       without needing to re-derive anything from scratch.
+    analogy: "Two witnesses who never met telling the same story."
     depends_on: ["known-answer test"]
     defined_in: 7
 
@@ -183,6 +200,7 @@ concepts:
       The input a model's conclusion is most sensitive to — the one where a
       modest, realistic change in the number produces a large change in the
       answer.
+    analogy: "The wall you cannot take out without the roof coming down."
     depends_on: ["assumption"]
     defined_in: 8
 
@@ -191,6 +209,7 @@ concepts:
       Changing one input at a time, holding everything else fixed, and
       watching how much the output moves — the technique for finding a
       model's load-bearing assumption.
+    analogy: "Removing one wall at a time to find out which held the roof up."
     depends_on: ["load-bearing assumption"]
     defined_in: 8
 
@@ -199,6 +218,7 @@ concepts:
     definition: >-
       How much cash a business spends beyond what it brings in, per month —
       costs minus revenue, on a cash basis.
+    analogy: "How fast the tank is emptying."
     depends_on: ["cash accounting"]
     defined_in: 9
 
@@ -206,6 +226,7 @@ concepts:
     definition: >-
       How many months of cash remain at the current burn rate: cash in the
       bank, divided by monthly burn.
+    analogy: "How much tarmac is left at the current speed."
     depends_on: ["burn rate"]
     defined_in: 9
 
@@ -215,6 +236,7 @@ concepts:
       liabilities (bills coming due soon), on the balance sheet. Moved
       month to month mainly by the timing gap between earning revenue and
       collecting it, or incurring a cost and paying it.
+    analogy: "The float in the till: money you have, already spoken for."
     defined_in: 9
 
   # ─── Chapter 10 — Confidence, Not Certainty ─────────────────────────────
@@ -223,6 +245,7 @@ concepts:
       The single best-guess number a forecast produces — real, and always a
       guess, computed from one particular set of assumptions that would
       come out slightly different with equally defensible ones.
+    analogy: "One shot at a target, reported as though it were the bullseye."
     defined_in: 10
 
   - term: "scenario analysis"
@@ -231,6 +254,7 @@ concepts:
       a better case, and a worse case, each with its own internally
       consistent assumptions — rather than presenting one number as the
       only possible outcome.
+    analogy: "Three routes drawn on the map, rather than one line."
     depends_on: ["point estimate"]
     defined_in: 10
 
@@ -239,6 +263,7 @@ concepts:
     definition: >-
       A share of ownership in a company — a percentage entitling its holder
       to that share of whatever the company is eventually worth.
+    analogy: "A slice of the pie, not a slice of the money."
     defined_in: 11
 
   # The book bolds all three separately in Chapter 11, and the distinction
@@ -248,6 +273,7 @@ concepts:
     definition: >-
       What a company is said to be worth. It comes in two versions that
       matter for different reasons — see pre-money and post-money valuation.
+    analogy: "The number on the price tag, not the number in the till."
     depends_on: ["equity"]
     defined_in: 11
     scan: true
@@ -257,6 +283,7 @@ concepts:
       What a company is worth before a new investment is added. The number
       an option pool is usually carved out of, which is why it decides how
       much a round actually dilutes the existing shareholders.
+    analogy: "The size of the pie before the new slice is cut."
     depends_on: ["valuation"]
     defined_in: 11
 
@@ -266,6 +293,7 @@ concepts:
       investment amount, because the cash itself becomes part of what the
       company owns the moment it lands in the bank. A new investor's
       ownership share is their investment divided by this number.
+    analogy: "The size of the pie after."
     depends_on: ["pre-money valuation"]
     defined_in: 11
 
@@ -274,6 +302,7 @@ concepts:
     definition: >-
       The reduction in an existing shareholder's ownership percentage
       caused by new shares being issued to someone else.
+    analogy: "The same amount of pie, a smaller share of it."
     depends_on: ["equity", "valuation"]
     defined_in: 11
 
@@ -283,6 +312,7 @@ concepts:
       to future employees as they're hired — usually carved out of the
       pre-money valuation, which means it dilutes existing shareholders,
       not the incoming investor.
+    analogy: "A slice cut for guests who have not arrived, taken from the hosts' half."
     depends_on: ["valuation", "dilution"]
     defined_in: 11
 
@@ -294,6 +324,7 @@ concepts:
       yearly total standing in for twelve months that moved very
       differently from each other, an average standing in for a curve that
       was actually flat and then jumped once.
+    analogy: "One foot in the oven and one in the freezer, reported as a comfortable average."
     defined_in: 12
 
   # ─── Chapter 13 — Numbers You Can Trust ──────────────────────────────────
@@ -302,6 +333,7 @@ concepts:
       The standard list of categories every transaction in a business gets
       sorted into — software subscriptions, payroll, travel, revenue by
       product line.
+    analogy: "The labelled drawers every receipt gets filed into."
     defined_in: 13
 
   - term: "reconciliation"
@@ -310,5 +342,6 @@ concepts:
       Comparing a business's recorded transactions against an independent
       record of what actually happened — typically the bank or credit card
       statement — and confirming they match.
+    analogy: "Checking the chequebook against the bank statement."
     depends_on: ["chart of accounts"]
     defined_in: 13
