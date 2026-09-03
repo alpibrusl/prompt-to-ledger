@@ -10,7 +10,7 @@ The most common failure is not dramatic. A founder's own subscription to a perso
 
 ## Reconciliation: checking the books against reality
 
-**Reconciliation** is comparing the business's recorded transactions against an independent record of what actually happened — typically the bank or credit card statement — and confirming they match. It is Chapter 7's known-answer test, applied to the bookkeeping itself: the bank statement is the case where you already know the truth, because the bank has no reason to record a transaction that didn't happen.
+**Reconciliation** is comparing the business's recorded transactions against an independent record of what actually happened — typically the bank or credit card statement — and confirming they match. It is Chapter 7's known-answer test, applied to the bookkeeping itself: the bank statement is the case where you already know the truth because the bank has no reason to record a transaction that didn't happen.
 
 A business that reconciles monthly catches a miscategorised expense, a duplicate charge, or a transaction that was never recorded at all, while it's still a small, fixable thing. A business that doesn't reconcile discovers these the way Ledgerly discovered its missing new-hire cost in Chapter 9 — not through any single dramatic failure, but as a forecast that quietly stopped matching reality, with nothing pointing at where the mismatch actually started.
 

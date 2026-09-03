@@ -61,7 +61,7 @@ The **cash flow statement** answers the question the other two can't: *how much 
 </svg>
 </div>
 
-Ledgerly's confusing month makes sense once you see it through all three. The income statement said profit, because revenue earned that month (including work already delivered to customers who hadn't paid yet) exceeded costs incurred. The cash flow statement told the truer story for what actually happened to the bank balance: two large customers were slow to pay, so the cash side of that same revenue hadn't landed yet, while payroll — a real cash cost — went out on schedule regardless.
+Ledgerly's confusing month makes sense once you see it through all three. The income statement said profit because revenue earned that month (including work already delivered to customers who hadn't paid yet) exceeded costs incurred. The cash flow statement told the truer story for what actually happened to the bank balance: two large customers were slow to pay, so the cash side of that same revenue hadn't landed yet, while payroll — a real cash cost — went out on schedule regardless.
 
 ## Why this distinction is the one that costs people money
 

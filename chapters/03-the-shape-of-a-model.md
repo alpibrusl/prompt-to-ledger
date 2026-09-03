@@ -8,7 +8,7 @@ Nothing broke. Every formula calculated correctly. The chain connecting the ques
 
 Chapter 1 named it: a decision to make, then assumptions, then a model applied to those assumptions, then a computation, then a forecast, then the decision made on the strength of it. The point of this chapter is what happens at each link — because "the forecast is wrong" is not a diagnosis, it is a shrug with extra steps. *Which link* is wrong is a question with a checkable answer, and knowing the shape is what lets you ask it.
 
-## What a model actually is
+## What a model is
 
 A **financial model** is a set of assumptions connected by formulas to produce a forecast — revenue, costs, cash, whatever the question calls for. Underneath the tabs and formatting, it is exactly two kinds of cell doing two different jobs.
 

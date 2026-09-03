@@ -12,11 +12,11 @@ Run the same model with a growth rate of four percent a month — still real, me
 
 ## Finding the load-bearing assumption
 
-A **load-bearing assumption** is the input a model's conclusion is most sensitive to — the one where a modest, realistic change in the number produces a large change in the answer. Most consequential models have one or a few inputs that deserve to be treated this way, whether or not anyone building the model has actually identified them, and it is rarely the input that gets the most attention while building the model. Growth rate, churn rate, and the timing of a major cost are the usual suspects in a young company's forecast, because each one compounds: a small error in a rate applied every month for a year is not a small error by month twelve.
+A **load-bearing assumption** is the input a model's conclusion is most sensitive to — the one where a modest, realistic change in the number produces a large change in the answer. Most consequential models have one or a few inputs that deserve to be treated this way, whether or not anyone building the model has actually identified them, and it is rarely the input that gets the most attention while building the model. Growth rate, churn rate, and the timing of a major cost are the usual suspects in a young company's forecast because each one compounds: a small error in a rate applied every month for a year is not a small error by month twelve.
 
 Finding it does not require rebuilding the model. It requires one deliberate move: **sensitivity analysis** — changing one input at a time, holding everything else fixed, and watching how much the output moves. Halve the growth rate. Does the headline conclusion survive, or does it collapse? Double the churn rate. Does runway shrink by a month, or by a year? The inputs that barely move the answer when changed are not where your scrutiny belongs. The one or two that swing the whole story are exactly where it belongs, and a spreadsheet built with real parameters — Chapter 5's whole argument — makes this check take minutes instead of a rebuild.
 
-## The question that actually matters, once you've found it
+## The question that matters, once you've found it
 
 Identifying the load-bearing assumption is only useful if you then ask the harder question: is this number defensible, or is it just convenient?
 

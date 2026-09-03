@@ -4,7 +4,7 @@ Ledgerly's investor offers €500,000 for the seed round, at a €2,000,000 pre-
 
 This chapter is not about how to negotiate that term sheet — that's a real skill, it takes a lawyer who does this for a living, and this book would be lying if it pretended a chapter could replace one. It's about understanding what the numbers on it actually do, well enough to know what you're agreeing to before you sign it.
 
-## What you're actually giving up
+## What you're giving up
 
 **Equity** is a share of ownership in the company — a percentage that entitles its holder to that share of whatever the company is eventually worth. Founders hold equity from the start; an investor exchanges cash for a slice of it.
 
@@ -20,7 +20,7 @@ This is the part a first-time founder underestimates most reliably: dilution com
 
 ## The part that gets buried: the option pool
 
-Most term sheets include an **option pool** — a block of equity set aside, before the round is calculated, to grant to future employees as they're hired. It sounds like a detail. It is usually the single largest hidden cost in a term sheet, because of where it comes from: an investor typically requires the pool be created out of the pre-money valuation, which means it dilutes the existing founders, not the incoming investor.
+Most term sheets include an **option pool** — a block of equity set aside, before the round is calculated, to grant to future employees as they're hired. It sounds like a detail. It is usually the single largest hidden cost in a term sheet because of where it comes from: an investor typically requires the pool be created out of the pre-money valuation, which means it dilutes the existing founders, not the incoming investor.
 
 This is exactly the kind of number this book's own first rule says not to take on faith — computed, not narrated. Here is Ledgerly's round with a ten-percent post-money option pool, worked all the way through in actual shares rather than asserted as a headline percentage:
 
@@ -81,7 +81,7 @@ The core check. If the arithmetic doesn't reconcile cleanly, that's worth unders
 
 > "Is there an option pool in this round, and is it being created out of the pre-money valuation? What's my actual dilution once the pool is accounted for?"
 
-The question that catches the hidden cost. Ask it before you compare this offer against any other one, because two term sheets with the same headline valuation can carry very different real dilution depending on how the pool is structured.
+The question that catches the hidden cost. Ask it before you compare this offer against any other one because two term sheets with the same headline valuation can carry very different real dilution depending on how the pool is structured.
 
 > "If we raise another round at a higher valuation next year, roughly what happens to my ownership after both rounds combined?"
 

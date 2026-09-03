@@ -2,7 +2,7 @@
 
 Ask Ledgerly's agent for the company's margin, or its cost of acquiring a customer, and it will very happily compute one — using whatever definition seemed reasonable in the moment. Whether that definition is one an investor, a lender, or your own board would recognise is a separate question entirely, and "it computed a number" is not evidence either way.
 
-## What a common definition actually buys you
+## What a common definition buys you
 
 **Gross margin** is revenue minus the direct cost of delivering what was sold, divided by revenue — for Ledgerly, what's left of a customer's subscription payment after paying for the hosting and support that customer actually consumes, as a share of that payment. This book uses that version because it is the one most investors and lenders reach for by default, not because it is the only version anyone credible uses — a company with a genuinely different cost structure may reasonably draw the line between "direct" and "overhead" somewhere else, and different industries have their own conventions about what belongs on which side. What actually matters, and what a homemade spreadsheet usually skips, is stating which line you drew and why, so the number means the same thing to you as it does to whoever reads it next.
 

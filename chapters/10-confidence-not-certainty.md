@@ -14,15 +14,15 @@ The temptation is to build the range by feel — knock twenty percent off for th
 
 A real range comes from doing what Chapter 8 already taught: identify the one or two load-bearing assumptions, and vary *those* specifically across defensible values, not every input by an arbitrary percentage. Ledgerly's base case uses the four-percent monthly growth rate Chapter 8 grounded in the company's own history. A worse case might use two percent — still positive, still a real scenario, not a manufactured disaster. A better case might use six percent — ambitious, and still nowhere near the ten percent that started this whole story. Run the same model, the one built with real parameters back in Chapter 5, against each growth rate, and three honestly different answers come out the other end: in the worse case the cash runs out in the ninth month; in the base case, the eleventh; and in the better case it never runs out at all — revenue overtakes costs early in the second year, with the balance bottoming out around €34,000 on the way there.
 
-That's a range worth presenting, because every number in it came from an assumption someone would be willing to defend out loud, not from an arbitrary buffer added to make the presentation look appropriately cautious.
+That's a range worth presenting because every number in it came from an assumption someone would be willing to defend out loud, not from an arbitrary buffer added to make the presentation look appropriately cautious.
 
-## What the range is actually telling you
+## What the range is telling you
 
 Width is the part worth reading, more than the point estimate itself. A narrow range — worst and best cases close together — means the forecast doesn't depend much on the assumptions that are genuinely uncertain, and the base case is a reasonable thing to plan around directly. A wide range means the opposite: the honest answer is "somewhere between comfortable and urgent," even though the single headline number reports one specific point inside that range with exactly the same confident formatting either way.
 
-Ledgerly's range — from nine months to not running out at all, depending almost entirely on how fast growth actually lands — is a genuinely useful thing to know walking into a fundraising conversation. It says: start raising now, because the base case leaves eleven months and a round takes six of them; and don't let the better case relax you, because its low point is about one month of the current burn, thin enough that a single slow-paying quarter would erase it. A single point estimate of eleven months doesn't say any of that. It just says eleven, and lets you infer the urgency wrong in either direction.
+Ledgerly's range — from nine months to not running out at all, depending almost entirely on how fast growth actually lands — is a genuinely useful thing to know walking into a fundraising conversation. It says: start raising now because the base case leaves eleven months and a round takes six of them; and don't let the better case relax you because its low point is about one month of the current burn, thin enough that a single slow-paying quarter would erase it. A single point estimate of eleven months doesn't say any of that. It just says eleven, and lets you infer the urgency wrong in either direction.
 
-## The decision this actually changes
+## The decision this changes
 
 Two forecasts can carry the identical headline number and mean entirely different things once the range is visible. "Eleven months, range nine to thirteen" is a result you can plan a fundraise timeline around with real confidence. "Eleven months, range nine to never running out" is a result where the honest position is closer to *start now and move fast* than to *we have a comfortable runway* — and no amount of repeating the point estimate more confidently changes which of those two situations you're actually in.
 

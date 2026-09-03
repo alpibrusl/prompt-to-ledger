@@ -18,7 +18,7 @@ Better:
 
 Notice what the second version actually is. Every clause is a chapter from this book, stated as a requirement instead of hoped for: a real parameterised model, not a one-off spreadsheet (Chapter 5); every already-committed cost included, not just the current snapshot (Chapter 9); a defensible growth rate and a real range, not one optimistic number (Chapters 8 and 10); a known-answer test before the forecast is trusted (Chapter 7). Nothing in that request demands you understand accounting yourself. It only requires knowing which questions exist — which, if you've read this far, you now do.
 
-## What a complete request actually contains
+## What a complete request contains
 
 Not every request needs every clause above — a rough gut-check for a small decision doesn't need scenario planning the way a fundraise forecast does. But for anything a real decision will lean on, the complete version specifies:
 
