@@ -11,6 +11,13 @@ sessions:
       the last link alone. Then walk a real income statement and a real
       bank balance for the same fictional month side by side, and ask
       which one actually answers "can we make payroll."
+    solo: >-
+      All of this works alone. Ask an agent for a runway number on a toy
+      business and time how long it takes a confident, definite-sounding
+      sentence to arrive, then write out the five links it skipped. Read an
+      income statement and a bank balance for the same month side by side
+      and answer, for yourself, which of the two tells you whether payroll
+      clears.
     exercise:
       name: "Cash or accrual?"
       description: >-
@@ -35,6 +42,12 @@ sessions:
       Compare what comes back. As a group, change one parameter in the
       second version live and watch whether the whole model updates or
       whether someone would have had to rebuild it.
+    solo: >-
+      Ask for the forecast twice exactly as written, then do the part the
+      room usually does: change one parameter in the second version and see
+      whether the model updates or whether it would have to be rebuilt. If
+      nothing at the top of the sheet can be changed, that is the finding,
+      and it arrives faster on your own than in a group.
     exercise:
       name: "Find the welded-shut number"
       description: >-
@@ -58,6 +71,11 @@ sessions:
       group watches the number move. Then walk the known-answer test:
       what it means to point a model at a case with a known outcome
       before trusting it on the case that matters.
+    solo: >-
+      Compare the homemade formula against the explicit definition using
+      your own business's numbers rather than the fixture's, if you have
+      them — the gap between two margin definitions is more persuasive on
+      revenue you recognise. Then build the known-answer case and run it.
     exercise:
       name: "Back-test the trend"
       description: >-
@@ -92,6 +110,14 @@ sessions:
       defensible assumption and a convenient one, and practice asking
       "where does this number actually come from" out loud until the
       answer is either a reason or a hope.
+    solo: >-
+      Halve the growth rate the delivered forecast implies and watch the
+      conclusion move, as written. Do it before opening Appendix A, which
+      works this same forecast through end to end and is effectively the
+      answer key. The group's other half — asking "where does this number
+      come from" out loud until the answer is a reason or a hope — has to be
+      written down instead. An answer you would be willing to send someone
+      is the substitute for one you would have to say out loud.
     exercise:
       name: "Naive rate versus representative rate"
       description: >-
@@ -130,6 +156,12 @@ sessions:
       layered on yet. Then, as a group, ask what the model would need to
       already know about the business that a snapshot of current costs
       alone can't tell it.
+    solo: >-
+      Paper instead of a whiteboard, and otherwise unchanged: cash divided
+      by monthly burn, no growth layered on. Then write down what the model
+      would have to already know about the business that a snapshot of this
+      month's costs cannot tell it. The fixture's signed offer letter is one
+      answer; there will be others in your own.
     exercise:
       name: "Find the missing commitment"
       description: >-
@@ -172,6 +204,12 @@ sessions:
       post-money, and — the part that's easy to skip — an option pool
       created out of the pre-money side, in actual shares, not just a
       headline percentage.
+    solo: >-
+      Build the three cases and work the term sheet arithmetic as written.
+      Take the option pool slowly — it is the step that is easy to skip and
+      the one that decides how much a round actually costs the people
+      already holding shares. Do it in actual shares, not percentages, which
+      is where the arithmetic stops being intuitive.
     exercise:
       name: "Build the real dilution table"
       description: >-
@@ -195,6 +233,12 @@ sessions:
       and watch the same numbers tell two different stories. Then walk
       what a chart of accounts is and why a miscategorised expense never
       announces itself as an error.
+    solo: >-
+      Draw both charts yourself, from the same trailing year, and look at
+      them side by side. Drawing them is the exercise — a chart you built
+      from honest numbers and still find misleading teaches more than any
+      argument about axes. Then open a real chart of accounts, yours if you
+      have one, and find a category you would not have predicted.
     exercise:
       name: "Redraw it plainly"
       description: >-
@@ -224,6 +268,14 @@ sessions:
       Close by rewriting the session's opening vague request ("can we
       afford this hire?") into the fully-specified version Chapter 14
       teaches, and comparing what each version would actually get back.
+    solo: >-
+      Run the verify-ledger skill against a real forecast, your own if you
+      have one and the fixture's forecast-as-delivered.md if not, and write
+      the result up as the three verdicts: genuinely done, checkable and
+      missing, and unconfirmable without asking a person. There is no group
+      to present it to, so the discipline has to come from the writing.
+      Close by rewriting "can we afford this hire?" into the fully-specified
+      version, and compare what each one gets back.
     checkpoint: >-
       A specific, honest finding presented to the group — not a clean
       bill of health, and not a wall of unconfirmed items either.
