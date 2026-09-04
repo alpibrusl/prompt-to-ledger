@@ -1,36 +1,48 @@
 # Test It Against What You Already Know
 
-Every chapter so far has been about reducing the chance a model is wrong. This one is about catching it anyway because reducing the chance is never the same thing as reaching zero, and the last line of defence is the cheapest one in this entire book.
+Everything so far has been about lowering the odds that a model is wrong. Lowered odds are not zero, and what follows is how the wrong ones get caught anyway — using nothing but a year the company has already lived through.
 
 ## The known-answer test
 
-A **known-answer test** is running a model against a case where you already know what the correct result should be, before trusting it on the case where you don't. Point Ledgerly's forecasting model at last year's actual starting numbers, run it forward twelve months, and compare what it predicts against what actually happened. If it gets that case right, that's real evidence, not proof, but real evidence, that it will handle next year's forecast honestly too. If it gets the known case wrong, you have just been saved from trusting it on the year that matters, for the cost of an afternoon.
+A **known-answer test** is running a model against a case where you already know what the correct result should be, before trusting it on the case where you don't. Point Ledgerly's forecasting model at last year's actual starting numbers, run it forward twelve months, and compare what it predicts against what actually happened. Run it on Ledgerly's actual trailing year and the seed memo's central claim does not survive the afternoon. "Revenue triples over the next 12 months" is nine point five nine percent a month. Started from the €12,175 the company genuinely collected twelve months ago, that rate says Ledgerly should be collecting about €36,525 today. It collected €20,000.
 
-This is precisely why Chapter 5 insisted on a model with parameters rather than a one-off spreadsheet. A model that only knows how to answer this specific pitch cannot be pointed at last year's actuals instead — there is nowhere to point it. A model built to take a scenario as input can be handed *any* scenario, including one you already know the true outcome of, run first, cheaply, before it ever touches the forecast you're actually deciding something from.
+No expertise produced that. A rate, a starting number, twelve multiplications, and a year the company had already lived.
 
-Building the known case does not need to be elaborate. Twelve months of last year's real numbers, if you have them. A simplified toy business where you can compute the ending cash balance by hand. A textbook example with a published answer. The bar is not rigor — it's simply *having something to check against*, which is a bar almost every spreadsheet handed to a founder currently clears zero times.
+This is what Chapter 5's insistence on parameters was for. A sheet that only answers this pitch has nowhere to put last year, so the check above cannot be run on it at all. A model that takes a scenario will take any scenario, including one whose ending you can already look up.
+
+The known case can be modest. Last year's real numbers if they exist; a toy business whose ending cash you can work out on paper if they don't.
+
+What it must not be is graded only on where it finishes. Ledgerly's trailing year can be described by more than one rate, and the two candidates disagree about which of them passed. The rate implied by the full year lands on today's revenue *exactly* and is still five percent out in an average month. The rate from the first ten months misses today by thirteen percent and tracks every month before it to within two. A test that compares only the final number passes the first and fails the second — and the first is the worse description of the year, because it reproduces the destination and not the journey.
+
+Check the path, not just the endpoint. A model can arrive at the right answer having been wrong every month on the way.
 
 ## Suspicion is not a special mode
 
-Extreme forecasts are not the only ones worth doubting. They are simply the ones that announce themselves — a hockey-stick growth curve or a runway number that seems too comfortable is startling enough to trigger doubt without you having to go looking for it. An ordinary, unremarkable-looking forecast can be wrong for exactly the same reasons — a bad assumption, a formula error, an unfair comparison — and it gets a pass for no better reason than that it happened to land somewhere plausible. The honest posture is not *trust it unless something about it looks extreme*. It's suspicion as the default setting for every forecast, and what an extreme one actually earns is not a monopoly on scrutiny — only how loudly it demands it.
+Extreme forecasts are not the ones most worth doubting. They are the ones that announce themselves. "Revenue triples" is startling enough to provoke a second look without anyone having to remember to take one.
 
-Constant suspicion sounds exhausting, and would be, if it meant rebuilding every model from first principles. It doesn't have to. The workable version is the same discipline as the known-answer test above, run continuously instead of once: a **consistency check** — does this forecast agree with something else you already know, arrived at a different way? Does this month's actual revenue land near what last quarter's trend would have predicted, even though nothing about it looks dramatic on its own? Does the bottom-up headcount cost match the top-down payroll total from the bank statement? Does this growth assumption roughly match what a board member, an investor who's seen a hundred companies like yours, or your own gut sense of the pipeline would have predicted before seeing the model? When two things that should roughly agree don't, that disagreement deserves exactly the attention an extreme forecast gets — even though neither number, looked at alone, seemed wrong.
+The eighteen-month runway sitting in the same memo is the harder case. Eighteen months is an unremarkable number for a company that has just raised, so it passes on the strength of sounding ordinary — and it is wrong for exactly the reasons the tripling is wrong because it was computed from the same growth rate. What an extreme number earns is not more scrutiny than an ordinary one. Only a louder reminder to apply it.
 
-This is deliberately more sustainable than treating distrust as an occasional event reserved for outliers. A consistency check needs no particular expertise. The question is simply *does this agree with that*, and a mismatch is the finding, regardless of which of the two you would have been inclined to trust more going in.
+Doubting everything would be exhausting if it meant rebuilding every model. It does not. The sustainable form is the known-answer test run continuously rather than once: a **consistency check** — does this number agree with something else already known, arrived at another way?
+
+Ledgerly's books offer several, none requiring a spreadsheet. Does the forecast's growth rate match what the last twelve rows of the revenue file actually did? Does the headcount cost in the model match the payroll leaving the bank? Does the signed offer letter in the folder appear anywhere in the numbers? That last one takes about ten seconds and finds €7,000 a month that the model has never heard of.
+
+When two things that ought to agree do not, the disagreement is the finding — even when neither number looked wrong on its own.
+
+None of those questions requires knowing finance. Each is *does this agree with that*, and the answer does not depend on which of the two you arrived more inclined to believe.
 
 ## Suspicion cuts both ways
 
-One instance of this is common enough, and easy enough to get exactly backwards, that it earns its own name: the forecast comes back, and it's either much better than expected or much worse — and one of those two reactions is relief, and the other is alarm, and neither one is *checking*.
+One version of this is common enough, and easy enough to get backwards, to be worth naming. The forecast lands either much better than hoped or much worse. One of those produces relief and the other produces alarm, and neither produces a check.
 
 Treat both the same way. **A suspiciously good forecast and a suspiciously bad one get identical treatment: stop, and look for an assumption or a formula error before you believe either one.**
 
-The reasoning underneath this is not superstition, it's arithmetic about how often things actually happen. Genuinely transformative quarters are rare — most real businesses move a few percentage points at a time, not a multiple. Assumption errors and formula mistakes, on the other hand, are common; an optimistic growth rate carried too far, a double-counted cost, a formula that references the wrong row, all of these are far more frequent events than a real result several times better than anything you've seen before. When a forecast is extreme, the honest calculation is that it is more likely to be one of the common causes wearing an exciting costume than a rare, genuine breakthrough wearing an ordinary one.
+The reasoning underneath this is not superstition, it's arithmetic about how often things actually happen. Genuinely transformative quarters are rare — most real businesses move a few percentage points at a time, not a multiple. Assumption errors and formula mistakes, on the other hand, are common; an optimistic growth rate carried too far, a double-counted cost, a formula that references the wrong row, all of these are far more frequent events than a real result several times better than anything you've seen before. So an extreme forecast is more likely a common error in an exciting costume than a rare breakthrough in a plain one. Ledgerly's tripling turned out to be two good months, extrapolated for a year.
 
-The failure mode to watch for in yourself is asymmetric relief: quietly re-checking the bad-looking forecasts harder than the good-looking ones because the good ones feel like they've already earned belief. They haven't. A number that flatters what you were hoping for is not thereby more likely to be correct.
+The habit to watch for in yourself is asymmetric relief: checking the discouraging forecasts harder than the encouraging ones because the encouraging ones feel as though they have already made their case. Flattering a hope is not evidence of being right.
 
 ## What checking looks like
 
-Chapter 3 already gave you the diagnostic habit — the *shape* of a wrong-feeling forecast points at a different link in the chain. For the extreme case specifically: a suspiciously good forecast, check the assumptions first — something is probably being extrapolated from too little or too optimistic a moment. A suspiciously bad one, check the formulas first — something in the model likely broke. For an ordinary-looking forecast that simply failed a consistency check, the diagnostic habit is the same one, applied more broadly: find the specific link where the two disagreeing numbers diverge, rather than assuming the newer or less-trusted one is automatically the culprit.
+Chapter 3 already gave you the diagnostic habit — the *shape* of a wrong-feeling forecast points at a different link in the chain. For the extreme case specifically: a suspiciously good forecast, check the assumptions first — something is probably being extrapolated from too little or too optimistic a moment. A suspiciously bad one, check the formulas first — something in the model likely broke. For an ordinary forecast that merely failed a consistency check, find the link where the two numbers part company, rather than assuming the newer or less familiar one is at fault. Ledgerly's memo and Ledgerly's revenue file part company at exactly one number, and it is not in the memo — the memo never states a rate at all.
 
 ## What to ask for
 
@@ -40,8 +52,8 @@ The default request — not something reserved for forecasts that already look s
 
 > "This forecast seems unusually [good / bad] compared to what we'd normally expect. Before I act on it, check the assumptions and the formulas for an error — don't just re-explain why the number makes sense."
 
-The extreme-result instruction. Asking it to "explain" a suspicious forecast invites a plausible-sounding story; asking it to check invites an actual answer.
+The extreme-result instruction. Asked to *explain* a suspicious forecast, an agent will produce a story that fits it; asked to *check*, it has to go and look.
 
 > "Even though this doesn't look unusual, does it agree with what the bank statement shows, what last quarter's trend would predict, or what the pipeline actually supports? If they don't roughly match, find out why before either one gets used."
 
-The consistency check, asked routinely rather than only when something already feels wrong — which is the actual point of this chapter, not just the extreme-result case.
+The consistency check, asked as a matter of routine rather than when something already feels wrong. That, rather than the extreme-result case, is what this chapter is for.
