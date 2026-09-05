@@ -1,12 +1,14 @@
 # The Minimum Bar
 
-This chapter is a checklist and an argument about it.
+A checklist, and the argument for bothering with it.
 
-The argument first because a checklist you don't believe in is a checklist you'll skip the day it actually matters.
+The argument comes first because a checklist nobody believes in is a checklist that gets skipped on exactly the day it would have paid for itself.
 
 ## What "trustworthy" means
 
-There is no fixed line where a forecast becomes trustworthy enough. Trustworthiness is proportional to what's riding on it. A rough number satisfying your own curiosity, that nobody will act on, needs almost none of what follows. A forecast that will move a fundraise, a hiring decision, or a runway plan needs all of it. Most of what lands on your desk sits somewhere in between, and the useful question isn't *is this rigorous enough* in the abstract. It's:
+No fixed line exists where a forecast becomes trustworthy. How much it has to survive depends entirely on what is standing on it.
+
+A number you worked out to satisfy your own curiosity, that nobody will act on, needs almost none of the list below. Ledgerly's memo needed all of it: it was going into a seed deck, and the same eighteen-month figure was about to be used to decide on a hire. Most forecasts sit between those, and the question that sorts them is not whether this one is rigorous in the abstract:
 
 **What happens if this forecast is wrong, and who finds out when it's too late to matter?**
 
@@ -14,7 +16,7 @@ Everything below follows from your honest answer to that.
 
 ## The bar
 
-Before a forecast drives a real decision. Grouped by what each part protects against.
+What has to be true before a forecast decides anything, grouped by what each part is protecting you from.
 
 ### Getting a real model
 
@@ -44,7 +46,7 @@ Before a forecast drives a real decision. Grouped by what each part protects aga
 
 ## The short version
 
-If that's too much to hold at once, five items carry most of the value, each answerable in under an hour:
+Too much to carry around. Five of them do most of the work, and none takes an hour:
 
 1. **Was it computed with a real spreadsheet, formulas visible, not narrated?**
 2. **Was it tested against a known case — last year's actuals — before being trusted on this year?**
@@ -58,15 +60,15 @@ An afternoon, most of it just asking.
 
 Chapter 1 opened with a single sentence: Ledgerly's agent reported that revenue would triple in twelve months, runway was eighteen months, the deck was ready. Nothing about that sentence was dishonest. It was also not yet something anyone could act on.
 
-Getting from that sentence to something worth presenting took most of this book. Chapter 6 checked what the standard metrics actually meant. Chapters 4, 5, and 7 made sure the model was computed with real formulas, built with real parameters, and tested against last year's actual numbers. Chapter 8 found the real problem: the entire tripling rested on a ten-percent monthly growth rate extrapolated from two unusually good months, driven by a single large customer. A rate Ledgerly could actually defend from its own history — four percent monthly — turned tripling into a sixty-percent year: smaller, and true. Chapter 9 found the second problem hiding in the same number: the model had never been told about an already-committed hire, and the honest runway was eleven months, not eighteen — below even the naive cash-divided-by-burn figure. Chapter 10 turned that single number into a real range, and Chapter 11 made sure the fundraise itself was understood before anyone signed anything.
+Turning that sentence into something worth putting in front of an investor took most of this book. Chapter 6 checked what the standard metrics actually meant. Chapters 4, 5, and 7 made sure the model was computed with real formulas, built with real parameters, and tested against last year's actual numbers. Chapter 8 found the real problem: the entire tripling rested on a ten-percent monthly growth rate extrapolated from two unusually good months, driven by a single large customer. A rate Ledgerly could actually defend from its own history — four percent monthly — turned tripling into a sixty-percent year: smaller, and true. Chapter 9 found the second problem hiding in the same number: the model had never been told about an already-committed hire, and the honest runway was eleven months, not eighteen — below even the naive cash-divided-by-burn figure. Chapter 10 turned that single number into a real range, and Chapter 11 made sure the fundraise itself was understood before anyone signed anything.
 
-Nine chapters between a plausible sentence and an actual answer is not this book being thorough for its own sake. It is what the gap between a forecast and something you can act on, named all the way back in Chapter 1, actually costs to close — once, carefully, so it doesn't have to be re-litigated by hand every time a number like it shows up again.
+Nine chapters between a plausible sentence and an answer is not thoroughness for its own sake. It is what the gap named in Chapter 1 actually costs to close, paid once so it does not have to be paid again by hand the next time a number like that one arrives. Appendix A runs the same arithmetic straight through, from the memo to the month the money runs out, on the fixture's own files.
 
 ## What you have
 
-You began this book unable to build a financial model yourself and unable to say what surrounded a forecast someone else built for you. That hasn't changed, and it was never the point.
+You started this book unable to build a financial model and unable to say what was missing from one somebody else had built. The first half of that is still true, and was never what this was for.
 
-What you can do now is ask whether a forecast's growth assumption is defensible or just convenient, whether a runway number accounts for decisions you've already made, whether a fundraise is being described honestly, whether a chart would tell the same story drawn plainly. You can hear "revenue triples" and know which question to ask before you believe it. That is the actual job this book was for, and it was never about doing the modelling yourself.
+What you can do now is ask whether a forecast's growth assumption is defensible or just convenient, whether a runway number accounts for decisions you've already made, whether a fundraise is being described honestly, whether a chart would tell the same story drawn plainly. You can hear "revenue triples" and know that the question is which two months it came from. That is the job — none of it the modelling.
 
 ## The last thing
 
@@ -76,7 +78,7 @@ One question, worth asking about every forecast before it drives a decision:
 
 That question is this whole book, compressed. It asks for something you can act on rather than a number (Chapter 1). It asks what assumption the forecast actually depends on, by name, rather than leaving it buried in a spreadsheet cell (Chapter 8). And it asks what happens if that one number turns out to be wrong — not as an abstract possibility, but as something concrete enough to plan around before it happens, not after.
 
-Ask it about every forecast before you act on it. The answer doesn't have to be elaborate. Sometimes "we tested the model against last year's actuals, identified the one assumption the answer depends on, and it's defensible" is completely sufficient. What matters is that there is an answer, and that someone actually has it — rather than finding out, after the round has closed or the hire has started, that nobody ever did.
+Put it to every forecast before it decides anything. The answer can be short. Sometimes "we tested the model against last year's actuals, identified the one assumption the answer depends on, and it's defensible" is completely sufficient. What matters is that one exists and that a specific person is holding it — rather than discovering, after the round has closed or the engineer has started, that nobody ever was.
 
 ## What to ask for
 
@@ -84,4 +86,4 @@ One last time:
 
 > "Walk me through this checklist against what you just gave me. For each item: done, not done, or not applicable — and if not applicable, why."
 
-Ask before the first real decision rides on it. Ask again the next time something looks too good. The gaps are where your actual risk is, and unlike most lists of open questions, this one eventually runs out.
+Ask it before the first real decision leans on the forecast, and again the next time one looks too good. The gaps are the risk. Unlike most lists of open questions, this one runs out.

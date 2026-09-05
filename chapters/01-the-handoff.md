@@ -16,9 +16,9 @@ You have almost certainly done a version of this in a spreadsheet yourself, and 
 
 ## Two kinds of wrong
 
-There is the kind of wrong you can see. A formula pointing at the wrong row, a total that obviously doesn't add up, a percentage above 100. You look, you notice, you fix it. This kind is not really the subject here — you already know how to catch it, because you have been catching typos in spreadsheets for years.
+One kind announces itself. A formula pointing at the wrong row, a total that plainly does not add up, a margin above one hundred percent. You look, you see it, you fix it — and you have been fixing that kind since the first spreadsheet anyone handed you.
 
-The other kind is quieter, and it is what the rest of this book is for. The model runs cleanly. The forecast is a plausible size — not absurd, nothing that jumps out. And it is still wrong, for reasons that never show up in the output itself:
+The other kind is silent, and it is what the rest of this book is for. The model runs cleanly. The forecast is a plausible size — not absurd, nothing that jumps out. And it is still wrong, for reasons that never show up in the output itself:
 
 - The growth rate driving the whole forecast was read off two unusually good months, not a repeatable trend.
 - The runway number didn't account for the hire you already decided to make next month.
@@ -68,7 +68,7 @@ You may already be looking at a forecast — something the agent built, or somet
 
 Nothing here requires you to be an accountant. You can ask your agent every one of these questions today and get a direct answer — the pattern of shaky answers tells you where to spend your scrutiny, which is rarely the place you'd have guessed.
 
-The same list appears in full at the end of the book, as Chapter 15, with the reasoning behind each item. This version is the map; that one is the audit.
+Chapter 15 has the full version with the reasoning behind every item, and Appendix A runs the whole of it once, end to end, against Ledgerly's own books. This table is the map; those two are the territory.
 
 ## The arc of this book
 
@@ -86,7 +86,7 @@ The same list appears in full at the end of the book, as Chapter 15, with the re
 
 There is real jargon ahead — not much, and every piece of it earns its place because running a business by feel never required you to learn it precisely. Each term is defined the first time it appears, used the same way every time after, and collected in a glossary at the back. When a term has a clean everyday image behind it, I commit to that image once and keep using it, rather than reaching for a new metaphor each chapter and leaving you to reconcile them.
 
-That consistency is checked automatically, the same way it is in this book's two companion volumes: the manuscript is source, kept in a repository with its full history, and a script fails the build if a chapter uses a term before the book has defined it. The discipline this book asks of you is the discipline it holds itself to.
+That consistency is checked automatically, the same way it is in this book's two companion volumes: the manuscript is source, kept in a repository with its full history, and a script fails the build if a chapter uses a term before the book has defined it. What this book asks of a forecast, it has to survive itself.
 
 ## One thing to take from this chapter
 
@@ -100,4 +100,4 @@ Every chapter after this one is an answer to some part of how.
 
 > "Before I act on this forecast — walk me through where it came from: what assumptions, what model, and which one assumption matters most to the answer."
 
-You will not follow every word of the answer yet. Ask it anyway, and keep the reply. By the end of this book you will be able to read it properly, and watching it get more legible is a genuinely useful thing to notice about your own progress.
+You will not follow all of the answer yet. Ask anyway, and keep what comes back. Read it again at Chapter 15 — the parts that were opaque the first time are the parts this book will have taught you, and noticing which ones they were is a fair measure of how far you got.
