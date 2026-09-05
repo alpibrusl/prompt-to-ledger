@@ -23,6 +23,13 @@ three: deciding whether to act on a recommendation, not just verifying it.
 > The agent will build almost any model you ask for, and will rarely tell
 > you which assumption inside it is doing all the work.
 
+
+> **Two licences.** The manuscript in `chapters/` is
+> [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — share and
+> adapt with credit, no commercial use. Everything else, including the build
+> and the cohort curriculum, is [EUPL-1.2](LICENSE). GitHub shows only the
+> second; [`COPYING.md`](COPYING.md) is the authority on the split.
+
 ## Contents
 
 | | Part | Chapters |
