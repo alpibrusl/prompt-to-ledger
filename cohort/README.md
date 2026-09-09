@@ -39,8 +39,8 @@ both problems themselves rather than read about someone else finding them.
 ## Build it
 
 ```bash
-pip install "content-kit-core @ git+https://github.com/alpibrusl/content-kit@main#subdirectory=packages/core"
-pip install "cohortkit @ git+https://github.com/alpibrusl/cohort-kit@main"
+pip install "content-kit-core @ git+https://github.com/alpibrusl/content-kit@v0.2.0#subdirectory=packages/core"
+pip install "cohortkit @ git+https://github.com/alpibrusl/cohort-kit@v0.2.0"
 
 make cohort-check   # validate sessions.yaml against this book's actual chapters
 make cohort-build   # → cohort/build/handout.html, cohort/build/facilitator-guide.html
