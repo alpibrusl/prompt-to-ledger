@@ -1,0 +1,15 @@
+# Prompt to Ledger
+
+> The financial literacy your AI agent assumes you already know — for founders and operators who can now get an agent to build a forecast, a budget, or a cap table on request, but never learned the accounting and finance that used to come bundled with producing one by hand.
+
+## Book
+
+- [Prompt to Ledger](https://alpibrusl.github.io/prompt-to-ledger/book.html): The full manuscript, sixteen chapters, teaching financial discipline for people who are not accountants.
+
+## Cohort
+
+- [Student handout](https://alpibrusl.github.io/prompt-to-ledger/handout.html): The exercises and sessions built from this book, for anyone running or taking the cohort.
+
+## Series
+
+Third in a series of four, same voice, same tooling, different subject each time: [Prompt to Production](https://alpibrusl.github.io/prompt-to-production/), [Prompt to Evidence](https://alpibrusl.github.io/prompt-to-evidence/), [Prompt to Decision](https://alpibrusl.github.io/prompt-to-decision/).
