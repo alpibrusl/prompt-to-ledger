@@ -2,6 +2,8 @@
 
 **The financial literacy your AI agent assumes you already know.**
 
+Read it online: <https://alpibrusl.github.io/prompt-to-ledger/>
+
 A short book for founders and operators who can now get an agent to build a
 forecast, a budget, or a cap table on request, but never learned the
 accounting and finance that used to come bundled with producing one by
